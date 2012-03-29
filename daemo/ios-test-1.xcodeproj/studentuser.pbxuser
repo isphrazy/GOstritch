@@ -8,9 +8,9 @@
 	};
 	1F3B9A2B0EF2145700286867 /* ios_test_1AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1066, 1963}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 1950}}";
 			sepNavSelRange = "{3385, 0}";
-			sepNavVisRange = "{2781, 1136}";
+			sepNavVisRange = "{2779, 1137}";
 			sepNavWindowFrame = "{{1341, 73}, {1125, 680}}";
 		};
 	};
@@ -118,10 +118,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 354735212;
-			PBXWorkspaceStateSaveDate = 354735212;
+			PBXPerProjectTemplateStateSaveDate = 354755829;
+			PBXWorkspaceStateSaveDate = 354755829;
 		};
 		perUserProjectItems = {
+			4939435A1525250C00FEC625 /* PBXBookmark */ = 4939435A1525250C00FEC625 /* PBXBookmark */;
+			4939435D1525250C00FEC625 /* PBXTextBookmark */ = 4939435D1525250C00FEC625 /* PBXTextBookmark */;
 			494ACF551523059B0033B832 = 494ACF551523059B0033B832 /* PBXTextBookmark */;
 			494ACF561523059B0033B832 = 494ACF561523059B0033B832 /* PBXTextBookmark */;
 			494ACF571523059B0033B832 = 494ACF571523059B0033B832 /* PBXBookmark */;
@@ -147,13 +149,27 @@
 			49DAECEC1523010F0071D008 = 49DAECEC1523010F0071D008 /* PBXTextBookmark */;
 			49DAECF51523017E0071D008 = 49DAECF51523017E0071D008 /* PBXTextBookmark */;
 			49DAECF61523017E0071D008 = 49DAECF61523017E0071D008 /* PBXTextBookmark */;
-			49F682081524D481004DACF6 /* PBXBookmark */ = 49F682081524D481004DACF6 /* PBXBookmark */;
-			49F682091524D481004DACF6 /* PBXBookmark */ = 49F682091524D481004DACF6 /* PBXBookmark */;
-			49F6820C1524D481004DACF6 /* PBXTextBookmark */ = 49F6820C1524D481004DACF6 /* PBXTextBookmark */;
+			49F682081524D481004DACF6 = 49F682081524D481004DACF6 /* PBXBookmark */;
+			49F682091524D481004DACF6 = 49F682091524D481004DACF6 /* PBXBookmark */;
+			49F6820C1524D481004DACF6 = 49F6820C1524D481004DACF6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 49A844711522C6DE00FA0DDF /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	4939435A1525250C00FEC625 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 49A8460D1522E94900FA0DDF /* bg_layer1.png */;
+	};
+	4939435D1525250C00FEC625 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* ios_test_1AppDelegate.m */;
+		name = "ios_test_1AppDelegate.m: 113";
+		rLen = 0;
+		rLoc = 3385;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 2779;
 	};
 	494ACF551523059B0033B832 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -222,7 +238,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
