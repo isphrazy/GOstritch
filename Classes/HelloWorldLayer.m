@@ -45,8 +45,10 @@
 	
 	for (int i = start; i >= end; i--) {
 		NSString *res_loc = [[NSString alloc] initWithFormat:@"bg_layer%d.png",i];
+		//NSString *res_loc = @"fg_test.png";
 		CCSprite *bg_obj = [CCSprite spriteWithFile:res_loc];
-		bg_obj.position = CGPointMake(-20,screen_height/2);
+		bg_obj.position = CGPointMake(0,0);
+		bg_obj.anchorPoint = CGPointMake(0,0);
 		[a addObject:bg_obj];
 		[self addChild:bg_obj];
 		[res_loc release];
@@ -59,9 +61,9 @@
 	//NSLog([NSString stringWithFormat:@"%d",[bg_elements count]]);
 	int i = 0;
 	for (CCSprite* s in bg_elements) {
-		i+=2;
+		i-=2;
 		s.position = ccp(s.position.x+i,s.position.y);
-		if (s.position.x > 600) {
+		if (s.position.x <= -(s.contentSize.width-screen_width)) {
 			s.position = ccp(0,s.position.y);
 		}
 		NSLog([NSString stringWithFormat:@"%f",s.position.x]);
