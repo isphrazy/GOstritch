@@ -9,7 +9,10 @@
 	CCSprite *fg; //temp
 	CCSprite *player;
 	
-	
+	bool touch_down;
+	float player_vx;
+	float player_vy;
+	float ground_level;
 }
 
 //def static methods

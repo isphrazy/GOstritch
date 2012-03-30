@@ -1,7 +1,7 @@
 Tios-test-1
 v7
 r0
-t354789082.195256
+t354791106.071799
 cCheck dependencies
 cProcessInfoPlistFile /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/ios-test-1.app/Default.png Resources/Default.png
@@ -481,15 +481,15 @@ t1333091705
 s1105
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.h
-c000000004F756AB90000000000000110
-t1333095097
-s272
+c000000004F75755B0000000000000159
+t1333097819
+s345
 i"cocos2d.h"
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m
-c000000004F756F590000000000000B30
-t1333096281
-s2864
+c000000004F7577400000000000000E38
+t1333098304
+s3640
 i"HelloWorldLayer.h"
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Classes/RootViewController.h
@@ -563,19 +563,19 @@ t1333091705
 s223516
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer1.png
-c000000004F755D790000000000003102
-t1333091705
-s12546
+c000000004F757394000000000000335C
+t1333097364
+s13148
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer2.png
-c000000004F755D790000000000002ED1
-t1333091705
-s11985
+c000000004F757394000000000000324C
+t1333097364
+s12876
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer3.png
-c000000004F755D790000000000001F57
-t1333091705
-s8023
+c000000004F757394000000000000220C
+t1333097364
+s8716
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/bird1_hr.png
 c000000004F755D79000000000000555A
@@ -588,9 +588,9 @@ t1333091705
 s3488
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/fg_test.png
-c000000004F755D7900000000000057BB
-t1333091705
-s22459
+c000000004F7573940000000000005F85
+t1333097364
+s24453
 
 N/Users/studentuser/Desktop/ios-test-1/demo/Resources/fps_images.png
 c000000004F755D79000000000000183B
@@ -618,11 +618,11 @@ t1333091705
 s61982
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app
-t1333096282
+t1333098306
 s918
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app.dSYM
-t1333096282
+t1333098306
 s102
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/Default.png
@@ -670,24 +670,24 @@ t2
 s0
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bg_layer1.png
-t1333092590
-s12546
+t1333097383
+s13148
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bg_layer2.i
 t2
 s0
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bg_layer2.png
-t1333092594
-s11985
+t1333097383
+s12876
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bg_layer3.i
 t2
 s0
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bg_layer3.png
-t1333092596
-s8023
+t1333097383
+s8716
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/bird1_hr.png
 t1333091705
@@ -702,8 +702,8 @@ t2
 s0
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/fg_test.png
-t1333092601
-s22459
+t1333097383
+s24453
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/fps_images.png
 t1333091705
@@ -726,8 +726,8 @@ t1333091705
 s61982
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1
-t1333096282
-s1682672
+t1333098305
+s1687184
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/libcocos2d libraries.a
 c000000004F755F3000000000003C3FB8
@@ -735,8 +735,8 @@ t1333092144
 s3948472
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o
-t1333096281
-s23524
+t1333098305
+s27524
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/RootViewController.o
 t1333092145
@@ -748,7 +748,7 @@ t1333092144
 s570
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o
-t1333095097
+t1333098087
 s60108
 
 N/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/main.o
@@ -2297,7 +2297,7 @@ lSLF07#2@26"Copy Resources/fg_test.png354785401#354785401#0(0"0(0#0#64"/Users/st
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies354789081#354789081#0(0"0(0#1#0"8617817856#0"0#
+lSLF07#2@18"Check dependencies354791105#354791105#0(0"0(0#1#0"8603771776#0"0#
 
 CCompileC build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o /Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s354736150.239758
@@ -2320,8 +2320,8 @@ o/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:69: warning: fo
 lSLF07#2@71"Compile /Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m354736150#354736150#0(814"/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m: In function '-[HelloWorldLayer init]':/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:32: warning: 'HelloWorldLayer' may not respond to '-make_bg_elements'/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:32: warning: (Messages without a matching method signature/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:32: warning: will be assumed to return 'id' and accept/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:32: warning: '...' as arguments.)/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m: In function '-[HelloWorldLayer update:]':/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m:69: warning: format not a string literal and no format arguments3(22@56"'HelloWorldLayer' may not respond to '-make_bg_elements'354736150#104#134#0(6@63"/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m354736150#32#0#32#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)354736150#238#123#0(6@63"/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m354736150#32#0#32#0#0"0(22@51"Format not a string literal and no format arguments354736150#685#129#0(6@63"/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m354736150#69#0#69#0#51"format not a string literal and no format arguments0(0#0#63"/Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m8605892736#2105"    cd /Users/studentuser/Desktop/ios-test-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-emsnjbhhvapyrbchvyxdikwelala/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/Classes/HelloWorldLayer.m -o /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o0#
 
 CCompileC build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o /Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s354789081.771683
-e354789081.923948
+s354791105.460053
+e354791105.647076
 r1
 xCompileC
 xbuild/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o
@@ -2331,13 +2331,13 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m: In function '-[HelloWorldLayer init]':
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: 'HelloWorldLayer' may not respond to '-make_bg_elements'
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: (Messages without a matching method signature
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: will be assumed to return 'id' and accept
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: '...' as arguments.)
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:28: warning: 'HelloWorldLayer' may not respond to '-make_fg'
-o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:29: warning: 'HelloWorldLayer' may not respond to '-make_player'
-lSLF07#2@76"Compile /Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354789081#354789081#0(867"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m: In function '-[HelloWorldLayer init]':/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: 'HelloWorldLayer' may not respond to '-make_bg_elements'/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: (Messages without a matching method signature/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: will be assumed to return 'id' and accept/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:27: warning: '...' as arguments.)/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:28: warning: 'HelloWorldLayer' may not respond to '-make_fg'/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:29: warning: 'HelloWorldLayer' may not respond to '-make_player'4(22@56"'HelloWorldLayer' may not respond to '-make_bg_elements'354789081#109#139#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354789081#27#0#27#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)354789081#248#128#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354789081#27#0#27#0#0"0(22@47"'HelloWorldLayer' may not respond to '-make_fg'354789081#603#130#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354789081#28#0#28#0#26"'*' may not respond to '*'0(22@51"'HelloWorldLayer' may not respond to '-make_player'354789081#733#134#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354789081#29#0#29#0#26"'*' may not respond to '*'0(0#0#68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m8617351360#2160"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-flpoybevetjpfscgilfivtqkddpc/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m -o /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o0#
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: 'HelloWorldLayer' may not respond to '-make_bg_elements'
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: (Messages without a matching method signature
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: will be assumed to return 'id' and accept
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: '...' as arguments.)
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:33: warning: 'HelloWorldLayer' may not respond to '-make_fg'
+o/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:34: warning: 'HelloWorldLayer' may not respond to '-make_player'
+lSLF07#2@76"Compile /Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354791105#354791105#0(867"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m: In function '-[HelloWorldLayer init]':/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: 'HelloWorldLayer' may not respond to '-make_bg_elements'/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: (Messages without a matching method signature/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: will be assumed to return 'id' and accept/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:32: warning: '...' as arguments.)/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:33: warning: 'HelloWorldLayer' may not respond to '-make_fg'/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m:34: warning: 'HelloWorldLayer' may not respond to '-make_player'4(22@56"'HelloWorldLayer' may not respond to '-make_bg_elements'354791105#109#139#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354791104#32#0#32#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)354791105#248#128#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354791104#32#0#32#0#0"0(22@47"'HelloWorldLayer' may not respond to '-make_fg'354791105#603#130#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354791104#33#0#33#0#26"'*' may not respond to '*'0(22@51"'HelloWorldLayer' may not respond to '-make_player'354791105#733#134#0(6@68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m354791104#34#0#34#0#26"'*' may not respond to '*'0(0#0#68"/Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m8629400896#2160"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-flpoybevetjpfscgilfivtqkddpc/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/demo/Classes/HelloWorldLayer.m -o /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/HelloWorldLayer.o0#
 
 CCompileC build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/RootViewController.o /Users/studentuser/Desktop/ios-test-1/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s354600933.678055
@@ -2379,8 +2379,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@77"Compile /Users/studentuser/Desktop/ios-test-1/Classes/ios_test_1AppDelegate.m354613163#354613164#0(0"0(0#0#69"/Users/studentuser/Desktop/ios-test-1/Classes/ios_test_1AppDelegate.m8640555328#2055"    cd /Users/studentuser/Desktop/ios-test-1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-emsnjbhhvapyrbchvyxdikwelala/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/Classes/ios_test_1AppDelegate.m -o /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o0#
 
 CCompileC build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o /Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s354787897.796206
-e354787897.940001
+s354790887.062205
+e354790887.209401
 r1
 xCompileC
 xbuild/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o
@@ -2389,7 +2389,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@82"Compile /Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m354787897#354787897#0(0"0(0#0#74"/Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m8626546624#2172"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-flpoybevetjpfscgilfivtqkddpc/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m -o /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o0#
+lSLF07#2@82"Compile /Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m354790887#354790887#0(0"0(0#0#74"/Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m8624474080#2172"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-generated-files.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-own-target-headers.hmap -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-all-target-headers.hmap -iquote /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/ios-test-1-project-headers.hmap -Wall -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources/i386 -I/Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ios_test_1_Prefix-flpoybevetjpfscgilfivtqkddpc/ios_test_1_Prefix.pch -c /Users/studentuser/Desktop/ios-test-1/demo/Classes/ios_test_1AppDelegate.m -o /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios_test_1AppDelegate.o0#
 
 CCompileC build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/main.o /Users/studentuser/Desktop/ios-test-1/demo/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s354784944.874944
@@ -2517,31 +2517,31 @@ xResources/bg3.png
 lSLF07#2@22"Copy Resources/bg3.png354603883#354603883#0(0"0(0#0#55"/Users/studentuser/Desktop/ios-test-1/Resources/bg3.png8612894240#475"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/bg3.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/bg_layer1.png Resources/bg_layer1.png
-s354609501.116067
-e354609501.265090
+s354790183.623573
+e354790183.661567
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/ios-test-1.app/bg_layer1.png
 xResources/bg_layer1.png
-lSLF07#2@28"Copy Resources/bg_layer1.png354609501#354609501#0(0"0(0#0#61"/Users/studentuser/Desktop/ios-test-1/Resources/bg_layer1.png8629467008#481"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/bg_layer1.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
+lSLF07#2@28"Copy Resources/bg_layer1.png354790183#354790183#0(0"0(0#0#66"/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer1.png8624517440#558"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer1.png /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/bg_layer2.png Resources/bg_layer2.png
-s354609501.116663
-e354609501.264171
+s354790183.627390
+e354790183.661741
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/ios-test-1.app/bg_layer2.png
 xResources/bg_layer2.png
-lSLF07#2@28"Copy Resources/bg_layer2.png354609501#354609501#0(0"0(0#0#61"/Users/studentuser/Desktop/ios-test-1/Resources/bg_layer2.png8629172032#481"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/bg_layer2.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
+lSLF07#2@28"Copy Resources/bg_layer2.png354790183#354790183#0(0"0(0#0#66"/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer2.png8623707040#558"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer2.png /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/bg_layer3.png Resources/bg_layer3.png
-s354609501.117241
-e354609501.284570
+s354790183.628098
+e354790183.661901
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/ios-test-1.app/bg_layer3.png
 xResources/bg_layer3.png
-lSLF07#2@28"Copy Resources/bg_layer3.png354609501#354609501#0(0"0(0#0#61"/Users/studentuser/Desktop/ios-test-1/Resources/bg_layer3.png8628830464#481"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/bg_layer3.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
+lSLF07#2@28"Copy Resources/bg_layer3.png354790183#354790183#0(0"0(0#0#66"/Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer3.png8623286656#558"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/demo/Resources/bg_layer3.png /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/bird1_hr.png Resources/bird1_hr.png
 s354609501.114560
@@ -2562,13 +2562,13 @@ xResources/bird1_sprite.png
 lSLF07#2@31"Copy Resources/bird1_sprite.png354609501#354609501#0(0"0(0#0#64"/Users/studentuser/Desktop/ios-test-1/Resources/bird1_sprite.png8630463488#484"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/bird1_sprite.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/fg_test.png Resources/fg_test.png
-s354609501.117819
-e354609501.266251
+s354790183.628901
+e354790183.662006
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/ios-test-1.app/fg_test.png
 xResources/fg_test.png
-lSLF07#2@26"Copy Resources/fg_test.png354609501#354609501#0(0"0(0#0#59"/Users/studentuser/Desktop/ios-test-1/Resources/fg_test.png8628409504#479"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/Resources/fg_test.png /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
+lSLF07#2@26"Copy Resources/fg_test.png354790183#354790183#0(0"0(0#0#64"/Users/studentuser/Desktop/ios-test-1/demo/Resources/fg_test.png8623076736#556"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/ios-test-1/demo/Resources/fg_test.png /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CCpResource build/Debug-iphonesimulator/ios-test-1.app/fps_images.png Resources/fps_images.png
 s354600933.093583
@@ -2625,13 +2625,13 @@ x/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.ap
 lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ios-test-1.app.dSYM build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354736150#354736150#0(0"0(0#0#91"/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/ios-test-18621316288#451"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1 -o /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app.dSYM0#
 
 CGenerateDSYMFile /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app.dSYM /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1
-s354789082.093061
-e354789082.193108
+s354791105.888604
+e354791106.069620
 r1
 xGenerateDSYMFile
 x/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app.dSYM
 x/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ios-test-1.app.dSYM build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354789082#354789082#0(0"0(0#0#96"/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-18614920640#466"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1 -o /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ios-test-1.app.dSYM build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354791105#354791106#0(0"0(0#0#96"/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-18627358368#466"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1 -o /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app.dSYM0#
 
 CLd /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1 normal i386
 s354736150.347453
@@ -2644,14 +2644,14 @@ xi386
 lSLF07#2@96"Link /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354736150#354736150#0(0"0(0#0#0"8620951072#1127"    cd /Users/studentuser/Desktop/ios-test-1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator -F/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator -filelist /Users/studentuser/Desktop/ios-test-1/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios-test-1.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/ios-test-10#
 
 CLd /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1 normal i386
-s354789081.924037
-e354789082.092968
+s354791105.647161
+e354791105.888509
 r1
 xLd
 x/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1
 xnormal
 xi386
-lSLF07#2@101"Link /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354789081#354789082#0(0"0(0#0#0"8632483968#1152"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -filelist /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios-test-1.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-10#
+lSLF07#2@101"Link /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-1354791105#354791105#0(0"0(0#0#0"8626917664#1152"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -F/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator -filelist /Users/studentuser/Desktop/ios-test-1/demo/build/ios-test-1.build/Debug-iphonesimulator/ios-test-1.build/Objects-normal/i386/ios-test-1.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app/ios-test-10#
 
 CProcessInfoPlistFile /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app/Info.plist Resources/Info.plist
 s354600933.088961
@@ -2700,10 +2700,10 @@ x/Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.ap
 lSLF07#2@86"Touch /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app354736150#354736150#0(0"0(0#0#0"8621214624#341"    cd /Users/studentuser/Desktop/ios-test-1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/studentuser/Desktop/ios-test-1/build/Debug-iphonesimulator/ios-test-1.app0#
 
 CTouch /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app
-s354789082.193187
-e354789082.195220
+s354791106.069696
+e354791106.071754
 r1
 xTouch
 x/Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app
-lSLF07#2@91"Touch /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app354789082#354789082#0(0"0(0#0#0"8614748192#351"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
+lSLF07#2@91"Touch /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app354791106#354791106#0(0"0(0#0#0"8629128320#351"    cd /Users/studentuser/Desktop/ios-test-1/demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/studentuser/Desktop/ios-test-1/demo/build/Debug-iphonesimulator/ios-test-1.app0#
 

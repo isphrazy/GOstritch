@@ -24,6 +24,11 @@
 		screen_width = size.width;
 		screen_height = size.height;
 		
+		touch_down = NO;
+		player_vx = 0;
+		player_vy = 0;
+		ground_level = 20; //arbitrary number, TODO: parameterize, ACTUAL collision lol??
+		
 		bg_elements = [self make_bg_elements];
 		fg = [self make_fg];
 		player = [self make_player];
@@ -44,6 +49,27 @@
 			s.position = ccp(0,s.position.y);
 		}
 	}
+	i-=2;
+	fg.position = ccp(fg.position.x+i,fg.position.y);
+	if (fg.position.x <= -(fg.contentSize.width-screen_width)) {
+		fg.position = ccp(0,fg.position.y);
+	}
+	
+	//TODO--GET RID OF ALL THIS, ACTUAL COLLISION SYSTEM
+	if (touch_down && player.position.y <= ground_level) {
+		player_vy = 15;
+	}
+	
+	if (player.position.y > ground_level) {
+		player_vy--;
+	} else if (player.position.y < ground_level) {
+		player.position = ccp(player.position.x,ground_level);
+		player_vy = 0;
+	}
+	
+	player.position = ccp(player.position.x+player_vx,MAX(player.position.y+player_vy,ground_level));
+	//END SHITTY CODE
+	
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent { //ccTouchesBeganWithEvent
@@ -51,12 +77,14 @@
 	CGPoint location = [myTouch locationInView:[myTouch view]];
 	location = [[CCDirector sharedDirector] convertToGL:location];
 	NSLog([NSString stringWithFormat:@"%f,%f",location.x,location.y]);*/
+	touch_down = YES;
 }
 
 -(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
 }
 
 -(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
+	touch_down = NO;
 }
 
 -(NSMutableArray*) make_bg_elements {
