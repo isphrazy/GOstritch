@@ -4,12 +4,15 @@
 @interface HelloWorldLayer : CCLayerColor { 
 	int screen_width;
 	int screen_height;
+	
 	NSMutableArray *bg_elements;
+	CCSprite *fg; //temp
 	CCSprite *player;
+	
+	
 }
 
 //def static methods
 +(CCScene*) scene;
-//+(NSArray*) make_bg_elements;
 
 @end
