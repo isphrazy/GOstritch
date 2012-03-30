@@ -10,7 +10,7 @@
 
 #import "ios_test_1AppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldLayer.h"
+#import "GameEngineLayer.h"
 #import "RootViewController.h"
 
 @implementation ios_test_1AppDelegate
@@ -110,7 +110,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	[[CCDirector sharedDirector] runWithScene: [GameEngineLayer scene]];
 }
 
 
