@@ -1,6 +1,6 @@
 //
-//  UntitledAppDelegate.m
-//  Untitled
+//  GOstrichAppDelegate.m
+//  GOstrich
 //
 //  Created by Student User on 4/2/12.
 //  Copyright University of Washington 2012. All rights reserved.
@@ -8,12 +8,12 @@
 
 #import "cocos2d.h"
 
-#import "UntitledAppDelegate.h"
+#import "GOstrichAppDelegate.h"
 #import "GameConfig.h"
 #import "HelloWorldLayer.h"
 #import "RootViewController.h"
 
-@implementation UntitledAppDelegate
+@implementation GOstrichAppDelegate
 
 @synthesize window;
 

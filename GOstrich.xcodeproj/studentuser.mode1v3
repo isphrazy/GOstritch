@@ -178,7 +178,7 @@
 	<key>FavBarConfig</key>
 	<dict>
 		<key>PBXProjectModuleGUID</key>
-		<string>4926F73C152AB30A00A1EFDE</string>
+		<string>4926F75A152AB39000A1EFDE</string>
 		<key>XCBarModuleItemNames</key>
 		<dict/>
 		<key>XCBarModuleItems</key>
@@ -329,14 +329,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 438}}</string>
+								<string>{{0, 0}, {1072, 430}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1280 135 1280 665 1280 80 1280 720 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>438pt</string>
+							<string>430pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 443}, {1072, 181}}</string>
+								<string>{{0, 435}, {1072, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1280 135 1280 665 1280 80 1280 720 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -375,9 +375,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4926F73A152AB30A00A1EFDE</string>
+				<string>4926F785152AB3B600A1EFDE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>4926F73B152AB30A00A1EFDE</string>
+				<string>4926F786152AB3B600A1EFDE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,8 +515,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4926F73D152AB30A00A1EFDE</string>
-		<string>/Users/studentuser/Documents/GOstrich/Untitled/Untitled.xcodeproj</string>
+		<string>4926F75B152AB39000A1EFDE</string>
+		<string>/Users/studentuser/Documents/GOstrich/GOstrich.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1280 135 1280 665 1280 80 1280 720 </string>
@@ -595,8 +595,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>4926F73D152AB30A00A1EFDE</string>
-				<string>4926F73E152AB30A00A1EFDE</string>
+				<string>4926F75B152AB39000A1EFDE</string>
+				<string>4926F787152AB3B600A1EFDE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -607,7 +607,7 @@
 			<key>WindowString</key>
 			<string>267 219 500 500 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
-			<string>4926F73D152AB30A00A1EFDE</string>
+			<string>4926F75B152AB39000A1EFDE</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

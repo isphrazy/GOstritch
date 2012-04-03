@@ -1,6 +1,6 @@
 //
-//  UntitledAppDelegate.h
-//  Untitled
+//  GOstrichAppDelegate.h
+//  GOstrich
 //
 //  Created by Student User on 4/2/12.
 //  Copyright University of Washington 2012. All rights reserved.
@@ -10,7 +10,7 @@
 
 @class RootViewController;
 
-@interface UntitledAppDelegate : NSObject <UIApplicationDelegate> {
+@interface GOstrichAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow			*window;
 	RootViewController	*viewController;
 }

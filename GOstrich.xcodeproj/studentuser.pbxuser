@@ -1,18 +1,18 @@
 // !$*UTF8*$!
 {
-	1D6058900D05DD3D006BFB54 /* Untitled */ = {
+	1D6058900D05DD3D006BFB54 /* GOstrich */ = {
 		activeExec = 0;
 		executables = (
-			4926F726152AB30200A1EFDE /* Untitled */,
+			4926F744152AB38900A1EFDE /* GOstrich */,
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 4926F726152AB30200A1EFDE /* Untitled */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Untitled */;
-		codeSenseManager = 4926F740152AB30A00A1EFDE /* Code sense */;
+		activeExecutable = 4926F744152AB38900A1EFDE /* GOstrich */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GOstrich */;
+		codeSenseManager = 4926F75E152AB39000A1EFDE /* Code sense */;
 		executables = (
-			4926F726152AB30200A1EFDE /* Untitled */,
+			4926F744152AB38900A1EFDE /* GOstrich */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -22,7 +22,7 @@
 					20,
 					833,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,14 +37,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 355119874;
-			PBXWorkspaceStateSaveDate = 355119874;
+			PBXPerProjectTemplateStateSaveDate = 355120049;
+			PBXWorkspaceStateSaveDate = 355120049;
 		};
-		sourceControlManager = 4926F73F152AB30A00A1EFDE /* Source Control */;
+		sourceControlManager = 4926F75D152AB39000A1EFDE /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	4926F726152AB30200A1EFDE /* Untitled */ = {
+	4926F744152AB38900A1EFDE /* GOstrich */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -66,12 +66,12 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = Untitled;
+		name = GOstrich;
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
-	4926F73F152AB30A00A1EFDE /* Source Control */ = {
+	4926F75D152AB39000A1EFDE /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
@@ -81,7 +81,7 @@
 			};
 		};
 	};
-	4926F740152AB30A00A1EFDE /* Code sense */ = {
+	4926F75E152AB39000A1EFDE /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
