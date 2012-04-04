@@ -11,4 +11,6 @@
 
 @implementation Island
 
+@synthesize startX, startY, endX, endY;
+
 @end

@@ -2,17 +2,17 @@
 //  HelloWorldLayer.m
 //  GOstrich
 //
-//  Created by Student User on 4/2/12.
+//  Created by Pingyang He on 4/2/12.
 //  Copyright University of Washington 2012. All rights reserved.
 //
 
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
-#import "CJSONDeserializer.h"
 
-NSArray *islands; //array of island
-NSArray *assets; //array of assets
+
+NSMutableArray *islands; //array of island
+NSMutableArray *assets; //array of assets
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -64,20 +64,39 @@ NSArray *assets; //array of assets
 
 }
 
+//read island file from disk, load it into variable islands
 -(void) loadIslands{
 	
+	//find the path of given file
 	NSString *islandFilePath = [[NSBundle mainBundle] pathForResource:@"island1" ofType:@"map"];
-	NSString *jsonStr = [[NSString alloc] initWithContentsOfFile : islandFilePath];
+	NSString *islandInputStr = [[NSString alloc] initWithContentsOfFile : islandFilePath];
+
+	NSData *islandData  =  [islandInputStr dataUsingEncoding : NSUTF8StringEncoding];
+
+	NSArray *islandArray = [[CJSONDeserializer deserializer]
+								deserializeAsArray : islandData error : nil ];
 	
+	int islandsCount = [islandArray count];
+	islands = [NSMutableArray arrayWithCapacity:islandsCount];
+	int i;
+	for(i = 0; i < islandsCount; i++){
+		Island *currentIsland = [[Island alloc] init];
+		NSDictionary *currentIslandDict = (NSDictionary *)[islandArray objectAtIndex:i];
+		[currentIsland setStartX:((NSString *)[currentIslandDict objectForKey:@"startX"]).intValue];
+		[currentIsland setStartY:((NSString *)[currentIslandDict objectForKey:@"startY"]).intValue];
+		[currentIsland setEndX:((NSString *)[currentIslandDict objectForKey:@"endX"]).intValue];
+		[currentIsland setEndY:((NSString *)[currentIslandDict objectForKey:@"endY"]).intValue]; 
+		[islands addObject:currentIsland];
+		NSLog(@"startX=%d", currentIsland.startX);
+	}
+	//NSString *first = ((NSString *)[((NSDictionary *)[islandArray objectAtIndex:0]) objectForKey:@"1"]);
 	
-	NSData  *jsonData  =  [jsonStr  dataUsingEncoding : NSUTF8StringEncoding];
-	//NSData *reader = [NSData dataWithContentsOfFile:@"map/island1.txt"];
-	NSError  *error = nil;
-	
-	NSArray *jsonArray  =  [ [ CJSONDeserializer  deserializer ]  deserializeAsArray : jsonData   error : &error ];
-	NSString *first = ((NSString *)[((NSDictionary *)[jsonArray objectAtIndex:0]) objectForKey:@"1"]);
 	//int pid = ((NSString *)[((NSDictionary *)[jsonDict objectForKey:@"1"]) objectForKey:@"2"]).intValue;
-	NSLog(@"10=%@", first);
+	//NSLog(@"10=%@", first);
+	
+	//[islandFilePath dealloc];
+	//[islandInputStr dealloc];
+	//[islandData dealloc];
 	
 }
 

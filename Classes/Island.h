@@ -2,15 +2,18 @@
 //  Island.h
 //  GOstrich
 //
-//  Created by Student User on 4/3/12.
-//  Copyright 2012 University of Washington. All rights reserved.
+//  Created by Pingyang He on 4/3/12.
+//  
 //
 
 #import <Foundation/Foundation.h>
-
+#import "cocos2d.h"
 
 @interface Island : NSObject {
-
+	CCSprite *islandSpr;
 }
+
+@property int startX, startY, endX, endY;
+
 
 @end
