@@ -9,6 +9,10 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "CJSONDeserializer.h"
+
+NSArray *islands; //array of island
+NSArray *assets; //array of assets
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -36,18 +40,49 @@
 	if( (self=[super init])) {
 		
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
-
-		// ask director the the window size
-		CGSize size = [[CCDirector sharedDirector] winSize];
-	
-		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
+//		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
+//
+//		// ask director the the window size
+//		CGSize size = [[CCDirector sharedDirector] winSize];
+//	
+//		// position the label on the center of the screen
+//		label.position =  ccp( size.width /2 , size.height/2 );
+//		
+//		// add the label as a child to this Layer
+//		[self addChild: label];
+		[self loadMap];
 		
-		// add the label as a child to this Layer
-		[self addChild: label];
 	}
 	return self;
+}
+
+//read a map from map forlder, load island and assets
+-(void) loadMap{
+	NSLog(@"loading map");
+	[self loadIslands];
+	[self loadAssets];
+
+}
+
+-(void) loadIslands{
+	
+	NSString *islandFilePath = [[NSBundle mainBundle] pathForResource:@"map" ofType:@"txt"];
+	NSString *jsonStr = [[NSString alloc] initWithContentsOfFile : islandFilePath];
+	
+	//jsonStr = @"[{\"1\":\"11\"}, {\"2\":\"22\"}]";
+	NSData  *jsonData  =  [jsonStr  dataUsingEncoding : NSUTF8StringEncoding];
+	//NSData *reader = [NSData dataWithContentsOfFile:@"map/island1.txt"];
+	NSError  *error = nil;
+	
+	NSArray *jsonArray  =  [ [ CJSONDeserializer  deserializer ]  deserializeAsArray : jsonData   error : &error ];
+	NSString *first = ((NSString *)[((NSDictionary *)[jsonArray objectAtIndex:0]) objectForKey:@"1"]);
+	//int pid = ((NSString *)[((NSDictionary *)[jsonDict objectForKey:@"1"]) objectForKey:@"2"]).intValue;
+	NSLog(@"10=%@", first);
+	
+}
+
+-(void) loadAssets{
+
 }
 
 // on "dealloc" you need to release all your retained objects

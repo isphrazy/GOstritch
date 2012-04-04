@@ -13,9 +13,15 @@
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer
 {
+	NSArray *islands;
+	NSArray *assets;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
+
+-(void) loadMap;
+-(void) loadIslands;
+-(void) loadAssets;
 
 @end
