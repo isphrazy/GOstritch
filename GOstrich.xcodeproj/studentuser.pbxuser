@@ -116,6 +116,12 @@
 			4926F8CB152BCA4A00A1EFDE /* PBXTextBookmark */ = 4926F8CB152BCA4A00A1EFDE /* PBXTextBookmark */;
 			4926F8CE152BCA8400A1EFDE /* PBXTextBookmark */ = 4926F8CE152BCA8400A1EFDE /* PBXTextBookmark */;
 			4926F8CF152BCA8400A1EFDE /* PBXTextBookmark */ = 4926F8CF152BCA8400A1EFDE /* PBXTextBookmark */;
+			4926F8D4152BCBEF00A1EFDE /* PBXTextBookmark */ = 4926F8D4152BCBEF00A1EFDE /* PBXTextBookmark */;
+			4926F8D5152BCBEF00A1EFDE /* PBXTextBookmark */ = 4926F8D5152BCBEF00A1EFDE /* PBXTextBookmark */;
+			4926F8DB152BCC2A00A1EFDE /* PBXTextBookmark */ = 4926F8DB152BCC2A00A1EFDE /* PBXTextBookmark */;
+			4926F8DC152BCC2A00A1EFDE /* PBXTextBookmark */ = 4926F8DC152BCC2A00A1EFDE /* PBXTextBookmark */;
+			4926F8DD152BCC2A00A1EFDE /* PBXTextBookmark */ = 4926F8DD152BCC2A00A1EFDE /* PBXTextBookmark */;
+			4926F8E0152BCC3500A1EFDE /* PBXTextBookmark */ = 4926F8E0152BCC3500A1EFDE /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4926F75D152AB39000A1EFDE /* Source Control */;
 		userBuildSettings = {
@@ -354,7 +360,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1670;
 		rType = 0;
 		vrLen = 769;
 		vrLoc = 1403;
@@ -364,7 +370,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1670;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 1403;
@@ -374,7 +380,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1671;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 1403;
@@ -384,7 +390,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 68";
 		rLen = 0;
-		rLoc = 1649;
+		rLoc = 1653;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 1403;
@@ -394,7 +400,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 68";
 		rLen = 0;
-		rLoc = 1649;
+		rLoc = 1653;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 1403;
@@ -434,7 +440,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1671;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 1403;
@@ -454,7 +460,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1671;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 1403;
@@ -464,7 +470,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 68";
 		rLen = 0;
-		rLoc = 1649;
+		rLoc = 1653;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 1403;
@@ -474,7 +480,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1671;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 1403;
@@ -484,14 +490,20 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1663;
+		rLoc = 1667;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 1403;
 	};
 	4926F8BE152B96F100A1EFDE /* map.txt */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = map.txt;
+		path = /Users/studentuser/Documents/GOstrich/Resources/map.txt;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 378}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 564}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 24}";
 		};
@@ -521,7 +533,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 70";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1671;
 		rType = 0;
 		vrLen = 825;
 		vrLoc = 1386;
@@ -531,7 +543,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 69";
 		rLen = 0;
-		rLoc = 1649;
+		rLoc = 1653;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 1386;
@@ -541,7 +553,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 70";
 		rLen = 22;
-		rLoc = 1624;
+		rLoc = 1628;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 1386;
@@ -551,7 +563,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 70";
 		rLen = 0;
-		rLoc = 1663;
+		rLoc = 1667;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 1386;
@@ -571,10 +583,77 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 80";
 		rLen = 0;
-		rLoc = 2231;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 1448;
+	};
+	4926F8D4152BCBEF00A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 80";
+		rLen = 0;
+		rLoc = 2189;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 1403;
+	};
+	4926F8D5152BCBEF00A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 80";
+		rLen = 0;
+		rLoc = 2189;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 1403;
+	};
+	4926F8D7152BCBFF00A1EFDE /* island1.map */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 564}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 24}";
+		};
+	};
+	4926F8DB152BCC2A00A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
+		name = "island1.map: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 24;
+		vrLoc = 0;
+	};
+	4926F8DC152BCC2A00A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 80";
+		rLen = 0;
+		rLoc = 2189;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 1403;
+	};
+	4926F8DD152BCC2A00A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1585;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 1403;
+	};
+	4926F8E0152BCC3500A1EFDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 75";
+		rLen = 0;
+		rLoc = 1845;
+		rType = 0;
+		vrLen = 1147;
+		vrLoc = 1403;
 	};
 	506EDC2F102F528A00A389B3 /* HelloWorldLayer.h */ = {
 		uiCtxt = {
@@ -587,8 +666,8 @@
 	506EDC30102F528A00A389B3 /* HelloWorldLayer.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 1568}}";
-			sepNavSelRange = "{2231, 0}";
-			sepNavVisRange = "{1448, 1153}";
+			sepNavSelRange = "{1845, 0}";
+			sepNavVisRange = "{1403, 1147}";
 			sepNavWindowFrame = "{{1505, 80}, {750, 697}}";
 		};
 	};

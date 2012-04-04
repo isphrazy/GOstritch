@@ -66,10 +66,10 @@ NSArray *assets; //array of assets
 
 -(void) loadIslands{
 	
-	NSString *islandFilePath = [[NSBundle mainBundle] pathForResource:@"map" ofType:@"txt"];
+	NSString *islandFilePath = [[NSBundle mainBundle] pathForResource:@"island1" ofType:@"map"];
 	NSString *jsonStr = [[NSString alloc] initWithContentsOfFile : islandFilePath];
 	
-	//jsonStr = @"[{\"1\":\"11\"}, {\"2\":\"22\"}]";
+	
 	NSData  *jsonData  =  [jsonStr  dataUsingEncoding : NSUTF8StringEncoding];
 	//NSData *reader = [NSData dataWithContentsOfFile:@"map/island1.txt"];
 	NSError  *error = nil;

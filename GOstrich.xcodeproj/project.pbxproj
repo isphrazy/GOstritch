@@ -11,7 +11,7 @@
 		1F3B9A2D0EF2145700286867 /* GOstrichAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* GOstrichAppDelegate.m */; };
 		4926F83D152B867C00A1EFDE /* Island.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926F83C152B867C00A1EFDE /* Island.m */; };
 		4926F842152B868A00A1EFDE /* Assets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926F841152B868A00A1EFDE /* Assets.m */; };
-		4926F8BF152B96F100A1EFDE /* map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4926F8BE152B96F100A1EFDE /* map.txt */; };
+		4926F8D8152BCBFF00A1EFDE /* island1.map in Resources */ = {isa = PBXBuildFile; fileRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */; };
 		504DFBCE10AF12E9006D82FE /* CLScoreServerPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFBC810AF12E9006D82FE /* CLScoreServerPost.h */; };
 		504DFBCF10AF12E9006D82FE /* CLScoreServerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 504DFBC910AF12E9006D82FE /* CLScoreServerPost.m */; };
 		504DFBD010AF12E9006D82FE /* CLScoreServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFBCA10AF12E9006D82FE /* CLScoreServerRequest.h */; };
@@ -263,7 +263,7 @@
 		4926F83C152B867C00A1EFDE /* Island.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Island.m; sourceTree = "<group>"; };
 		4926F840152B868A00A1EFDE /* Assets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
 		4926F841152B868A00A1EFDE /* Assets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assets.m; sourceTree = "<group>"; };
-		4926F8BE152B96F100A1EFDE /* map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+		4926F8D7152BCBFF00A1EFDE /* island1.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = island1.map; sourceTree = "<group>"; };
 		504DFBC810AF12E9006D82FE /* CLScoreServerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLScoreServerPost.h; sourceTree = "<group>"; };
 		504DFBC910AF12E9006D82FE /* CLScoreServerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLScoreServerPost.m; sourceTree = "<group>"; };
 		504DFBCA10AF12E9006D82FE /* CLScoreServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLScoreServerRequest.h; sourceTree = "<group>"; };
@@ -596,6 +596,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		4926F8D6152BCBFF00A1EFDE /* map */ = {
+			isa = PBXGroup;
+			children = (
+				4926F8D7152BCBFF00A1EFDE /* island1.map */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
 		504DFBC710AF12E9006D82FE /* cocoslive */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,7 +669,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4926F8BE152B96F100A1EFDE /* map.txt */,
+				4926F8D6152BCBFF00A1EFDE /* map */,
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
 				E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */,
@@ -1110,7 +1118,7 @@
 				E02BB507126CA50F006E46A2 /* Icon-Small-50.png in Resources */,
 				E02BB508126CA50F006E46A2 /* Icon-72.png in Resources */,
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
-				4926F8BF152B96F100A1EFDE /* map.txt in Resources */,
+				4926F8D8152BCBFF00A1EFDE /* island1.map in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
