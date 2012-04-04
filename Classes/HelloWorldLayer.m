@@ -1,117 +1,80 @@
-//
-//  HelloWorldLayer.m
-//  GOstrich
-//
-//  Created by Pingyang He on 4/2/12.
-//  Copyright University of Washington 2012. All rights reserved.
-//
 
-
-// Import the interfaces
 #import "HelloWorldLayer.h"
 
 
-NSMutableArray *islands; //array of island
-NSMutableArray *assets; //array of assets
-
-// HelloWorldLayer implementation
 @implementation HelloWorldLayer
 
-+(CCScene *) scene
-{
-	// 'scene' is an autorelease object.
++(CCScene *) scene{
+	[[CCDirector sharedDirector] setDisplayFPS:NO];
 	CCScene *scene = [CCScene node];
-	
-	// 'layer' is an autorelease object.
 	HelloWorldLayer *layer = [HelloWorldLayer node];
-	
-	// add layer as a child to scene
 	[scene addChild: layer];
-	
-	// return the scene
 	return scene;
 }
 
-// on "init" you need to initialize your instance
--(id) init
-{
-	// always call "super" init
-	// Apple recommends to re-assign "self" with the "super" return value
+
+-(id) init{
 	if( (self=[super init])) {
-		
-		// create and initialize a Label
-//		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
-//
-//		// ask director the the window size
-//		CGSize size = [[CCDirector sharedDirector] winSize];
-//	
-//		// position the label on the center of the screen
-//		label.position =  ccp( size.width /2 , size.height/2 );
-//		
-//		// add the label as a child to this Layer
-//		[self addChild: label];
 		[self loadMap];
-		
+		[self schedule:@selector(update:)];
 	}
 	return self;
 }
 
-//read a map from map forlder, load island and assets
+//read a map from map folder, load island and assets
 -(void) loadMap{
 	NSLog(@"loading map");
-	[self loadIslands];
-	[self loadAssets];
-
+	islands = [HelloWorldLayer loadIslands];
+	NSLog(@"finished loading");
+	
+	for (Island* i in islands) { //TODO: make seperate methods for processing
+		[self addChild:i];
+	}
+	
 }
 
-//read island file from disk, load it into variable islands
--(void) loadIslands{
-	
+-(void)update:(ccTime)dt {
+	//TODO: create/add player, update and check islands->collision
+}
+
+
+-(void) loadAssets{
+}
+
+- (void) dealloc{
+
+	[super dealloc];
+}
+
+//static method that loads map into array from file, process array afterwards
++(NSMutableArray*) loadIslands{
 	//find the path of given file
 	NSString *islandFilePath = [[NSBundle mainBundle] pathForResource:@"island1" ofType:@"map"];
 	NSString *islandInputStr = [[NSString alloc] initWithContentsOfFile : islandFilePath];
-
+	
 	NSData *islandData  =  [islandInputStr dataUsingEncoding : NSUTF8StringEncoding];
-
-	NSArray *islandArray = [[CJSONDeserializer deserializer]
-								deserializeAsArray : islandData error : nil ];
+	NSArray *islandArray = [[CJSONDeserializer deserializer] deserializeAsArray : islandData error : nil ];
 	
 	int islandsCount = [islandArray count];
-	islands = [NSMutableArray arrayWithCapacity:islandsCount];
+	NSMutableArray *n_islands = [NSMutableArray arrayWithCapacity:islandsCount];
 	int i;
 	for(i = 0; i < islandsCount; i++){
-		Island *currentIsland = [[Island alloc] init];
 		NSDictionary *currentIslandDict = (NSDictionary *)[islandArray objectAtIndex:i];
-		[currentIsland setStartX:((NSString *)[currentIslandDict objectForKey:@"startX"]).intValue];
-		[currentIsland setStartY:((NSString *)[currentIslandDict objectForKey:@"startY"]).intValue];
-		[currentIsland setEndX:((NSString *)[currentIslandDict objectForKey:@"endX"]).intValue];
-		[currentIsland setEndY:((NSString *)[currentIslandDict objectForKey:@"endY"]).intValue]; 
-		[islands addObject:currentIsland];
-		NSLog(@"startX=%d", currentIsland.startX);
+		CGPoint start = ccp( ((NSString *)[currentIslandDict objectForKey:@"startX"]).floatValue
+							,((NSString *)[currentIslandDict objectForKey:@"startY"]).floatValue );
+		CGPoint end = ccp( ((NSString *)[currentIslandDict objectForKey:@"endX"]).floatValue
+						  ,((NSString *)[currentIslandDict objectForKey:@"endY"]).floatValue );
+		
+		Island *currentIsland;
+		if (true) { //TODO: if statement here based on type of island read in json
+			currentIsland = [Line_Island init_pt1:start pt2:end];
+			//NSLog(@"new (line_island) min:%.0f max:%.0f",currentIsland.startX,currentIsland.endX);
+		}
+		
+		[n_islands addObject:currentIsland];
+		
 	}
-	//NSString *first = ((NSString *)[((NSDictionary *)[islandArray objectAtIndex:0]) objectForKey:@"1"]);
+	return n_islands;
 	
-	//int pid = ((NSString *)[((NSDictionary *)[jsonDict objectForKey:@"1"]) objectForKey:@"2"]).intValue;
-	//NSLog(@"10=%@", first);
-	
-	//[islandFilePath dealloc];
-	//[islandInputStr dealloc];
-	//[islandData dealloc];
-	
-}
-
--(void) loadAssets{
-
-}
-
-// on "dealloc" you need to release all your retained objects
-- (void) dealloc
-{
-	// in case you have something to dealloc, do it in this method
-	// in this particular example nothing needs to be released.
-	// cocos2d will automatically release all the children (Label)
-	
-	// don't forget to call "super dealloc"
-	[super dealloc];
 }
 @end

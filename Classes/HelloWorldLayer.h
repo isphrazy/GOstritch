@@ -7,22 +7,18 @@
 //
 
 
-// When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
 #import "CJSONDeserializer.h"
+#import "Line_Island.h"
 #import "Island.h"
-// HelloWorldLayer
-@interface HelloWorldLayer : CCLayer
-{
+
+@interface HelloWorldLayer : CCLayer {
 	NSMutableArray *islands;
 	NSMutableArray *assets;
 }
 
-// returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
-
++(NSMutableArray*) loadIslands;
 -(void) loadMap;
--(void) loadIslands;
--(void) loadAssets;
 
 @end

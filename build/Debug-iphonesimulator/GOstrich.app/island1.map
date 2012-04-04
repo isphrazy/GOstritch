@@ -1,1 +1,7 @@
-[{"startX":"200","startY":"50","endX":"300","endY":"70"}, {"startX":"400","startY":"70","endX":"500","endY":"70"}]
+[
+{"startX":"0","startY":"0","endX":"100","endY":"200"},
+{"startX":"300","startY":"0","endX":"100","endY":"200"},
+{"startX":"250","startY":"100","endX":"500","endY":"200"},
+{"startX":"0","startY":"2","endX":"400","endY":"200"},
+{"startX":"250","startY":"250","endX":"500","endY":"200"}
+]

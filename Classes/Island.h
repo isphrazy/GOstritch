@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface Island : NSObject {
-	CCSprite *islandSpr;
+@interface Island : CCSprite {
+	float startX, startY, endX, endY;
 }
 
-@property int startX, startY, endX, endY;
+@property float startX, startY, endX, endY;
+//@property (readwrite,retain) CCSprite *display_sprite;
+
+-(float)get_height:(float)pos;
 
 
 @end

@@ -13,4 +13,8 @@
 
 @synthesize startX, startY, endX, endY;
 
+-(float)get_height:(float)pos {
+	return -1;
+}
+
 @end
