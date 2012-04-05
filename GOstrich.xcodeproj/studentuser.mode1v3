@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>494A5C0D152E533900DF418A</string>
+						<string>494A5CCA152E5B3400DF418A</string>
 						<key>history</key>
 						<array>
-							<string>499322CD152DA69A00E2B320</string>
+							<string>494A5CC5152E5B1D00DF418A</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -242,6 +242,46 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>494A5CA6152E5A6A00DF418A</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Line_Island.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>494A5CA7152E5A6A00DF418A</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Line_Island.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>494A5CCB152E5B3400DF418A</string>
+						<key>history</key>
+						<array>
+							<string>494A5CA1152E5A4100DF418A</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1562, 659}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>1280 95 1562 700 1280 -100 1440 900 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>499322B5152DA64600E2B320</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>GOstrichAppDelegate.m</string>
@@ -256,7 +296,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>494A5C0E152E533900DF418A</string>
+						<string>494A5CCC152E5B3400DF418A</string>
 						<key>history</key>
 						<array>
 							<string>499322CE152DA69A00E2B320</string>
@@ -296,7 +336,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>494A5C0F152E533900DF418A</string>
+						<string>494A5CCD152E5B3400DF418A</string>
 						<key>history</key>
 						<array>
 							<string>499322CF152DA69A00E2B320</string>
@@ -454,7 +494,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>494A5C0C152E533900DF418A</string>
+										<string>494A5CC9152E5B3400DF418A</string>
 										<key>history</key>
 										<array>
 											<string>4926F78F152ABF0100A1EFDE</string>
@@ -477,17 +517,17 @@
 											<string>49931E73152D715000E2B320</string>
 											<string>49931EC2152D75F600E2B320</string>
 											<string>49931F17152D779200E2B320</string>
-											<string>49932054152D830200E2B320</string>
 											<string>49932084152D842D00E2B320</string>
-											<string>499321B0152D98CC00E2B320</string>
-											<string>499321B1152D98CC00E2B320</string>
 											<string>499322AE152DA64600E2B320</string>
 											<string>494A5BC7152E512000DF418A</string>
-											<string>494A5BC8152E512000DF418A</string>
-											<string>494A5BC9152E512000DF418A</string>
-											<string>494A5C09152E533900DF418A</string>
-											<string>494A5C0A152E533900DF418A</string>
-											<string>494A5C0B152E533900DF418A</string>
+											<string>494A5C95152E5A3400DF418A</string>
+											<string>494A5C96152E5A3400DF418A</string>
+											<string>494A5C97152E5A3400DF418A</string>
+											<string>494A5C98152E5A3400DF418A</string>
+											<string>494A5C99152E5A3400DF418A</string>
+											<string>494A5C9A152E5A3400DF418A</string>
+											<string>494A5CC8152E5B3400DF418A</string>
+											<string>494A5C9B152E5A3400DF418A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -688,11 +728,12 @@
 		<string>494A5B6E152E4E1500DF418A</string>
 		<string>494A5B6F152E4E1500DF418A</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>4926F75B152AB39000A1EFDE</string>
 		<string>49931E49152D6FDE00E2B320</string>
 		<string>499322B5152DA64600E2B320</string>
-		<string>499322B2152DA64600E2B320</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>494A5CA6152E5A6A00DF418A</string>
+		<string>4926F75B152AB39000A1EFDE</string>
+		<string>499322B2152DA64600E2B320</string>
 		<string>/Users/studentuser/Desktop/GOstritch/GOstrich.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -717,7 +758,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>GameEngineLayer.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -734,6 +775,8 @@
 							<string>208pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -786,7 +829,7 @@
 			<key>WindowToolGUID</key>
 			<string>4926F75B152AB39000A1EFDE</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

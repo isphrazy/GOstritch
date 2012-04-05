@@ -2,7 +2,7 @@
 #import "CCDrawingPrimitives.h";
 
 @implementation Player
-@synthesize pos_x,pos_y,vx,vy;
+@synthesize vx,vy;
 
 +(Player*)init {
 	Player *new_player = [Player node];

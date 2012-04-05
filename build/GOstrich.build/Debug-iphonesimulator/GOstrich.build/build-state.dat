@@ -1,7 +1,7 @@
 TGOstrich
 v7
 r0
-t355357428.687545
+t355359539.939019
 cCheck dependencies
 cProcessInfoPlistFile /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/GOstrich.app/Default.png Resources/Default.png
@@ -217,9 +217,9 @@ i"Island.h"
 i"Player.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m
-c000000004F7E1B290000000000000F4C
-t1333664553
-s3916
+c000000004F7E23B00000000000000EAB
+t1333666736
+s3755
 i"GameEngineLayer.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/HelloWorldLayer.h
@@ -239,16 +239,16 @@ s3287
 i"HelloWorldLayer.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Island.h
-c000000004F7E058A000000000000014D
-t1333659018
-s333
+c000000004F7E1CE10000000000000131
+t1333664993
+s305
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Island.m
-c000000004F7E058A0000000000000123
-t1333659018
-s291
+c000000004F7E1CE60000000000000117
+t1333664998
+s279
 i"Island.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.h
@@ -258,22 +258,22 @@ s367
 i"Island.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m
-c000000004F7E058A0000000000000417
-t1333659018
-s1047
+c000000004F7E22E5000000000000051E
+t1333666533
+s1310
 i"Line_Island.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Player.h
-c000000004F7E058A00000000000000AF
-t1333659018
-s175
+c000000004F7E1CB90000000000000096
+t1333664953
+s150
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/studentuser/Desktop/GOstritch/Classes/Player.m
-c000000004F7E058A0000000000000A85
-t1333659018
-s2693
+c000000004F7E1D340000000000000A79
+t1333665076
+s2681
 i"Player.h"
 i"CCDrawingPrimitives.h"
 
@@ -374,16 +374,16 @@ t1333498642
 s61982
 
 N/Users/studentuser/Desktop/GOstritch/Resources/map/island1.map
-c000000004F7E1B7100000000000000A9
-t1333664625
-s169
+c000000004F7E2344000000000000011A
+t1333666628
+s282
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app
-t1333664628
+t1333666739
 s782
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app.dSYM
-t1333664580
+t1333666739
 s102
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/Default.png
@@ -391,8 +391,8 @@ t1333498642
 s30635
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich
-t1333664580
-s1697616
+t1333666739
+s1696544
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/Icon-72.png
 t1333498642
@@ -459,8 +459,8 @@ t1333498642
 s61982
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/island1.map
-t1333664628
-s169
+t1333666628
+s282
 
 N/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/libcocos2d libraries.a
 c000000004F7E058A00000000003C3FB8
@@ -477,28 +477,28 @@ t1333659018
 s1029
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o
-t1333660486
+t1333665001
 s59972
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GameEngineLayer.o
-t1333664580
-s28984
+t1333666739
+s27660
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/HelloWorldLayer.o
 t1333620141
 s26968
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o
-t1333660486
-s15376
+t1333665002
+s13392
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Line_Island.o
-t1333660487
-s18740
+t1333666537
+s18444
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Player.o
-t1333660487
-s15660
+t1333665077
+s13676
 
 N/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/RootViewController.o
 t1333660486
@@ -2313,7 +2313,7 @@ s1308
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies355357428#355357428#0(0"0(0#1#0"8625051264#0"0#
+lSLF07#2@18"Check dependencies355359539#355359539#0(0"0(0#1#0"8624397184#0"0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Assets.o /Users/studentuser/Desktop/GOstritch/Classes/Assets.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s355353286.853558
@@ -2342,8 +2342,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@62"Compile /Users/studentuser/Documents/GOstrich/Classes/Assets.m355192306#355192306#0(0"0(0#0#54"/Users/studentuser/Documents/GOstrich/Classes/Assets.m8622431136#1985"    cd /Users/studentuser/Documents/GOstrich    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator -I/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/include -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-dqafzxdlozxvjocdmwogbooboxjz/GOstrich_Prefix.pch -c /Users/studentuser/Documents/GOstrich/Classes/Assets.m -o /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Assets.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o /Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s355353286.276672
-e355353286.709931
+s355357801.707182
+e355357801.997269
 r1
 xCompileC
 xbuild/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o
@@ -2352,7 +2352,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@74"Compile /Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m355353286#355353286#0(0"0(0#0#66"/Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m8612362944#2000"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o0#
+lSLF07#2@74"Compile /Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m355357801#355357802#0(0"0(0#0#66"/Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m8625044320#2000"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/GOstrichAppDelegate.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o /Users/studentuser/Documents/GOstrich/Classes/GOstrichAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s355197066.702137
@@ -2368,8 +2368,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@75"Compile /Users/studentuser/Documents/GOstrich/Classes/GOstrichAppDelegate.m355197066#355197066#0(0"0(0#0#67"/Users/studentuser/Documents/GOstrich/Classes/GOstrichAppDelegate.m8622803520#2011"    cd /Users/studentuser/Documents/GOstrich    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator -I/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/include -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-dqafzxdlozxvjocdmwogbooboxjz/GOstrich_Prefix.pch -c /Users/studentuser/Documents/GOstrich/Classes/GOstrichAppDelegate.m -o /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrichAppDelegate.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GameEngineLayer.o /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s355357379.939569
-e355357380.184885
+s355359539.131634
+e355359539.365355
 r1
 xCompileC
 xbuild/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GameEngineLayer.o
@@ -2378,7 +2378,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@70"Compile /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m355357379#355357380#0(0"0(0#0#62"/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m8622395744#1992"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GameEngineLayer.o0#
+lSLF07#2@70"Compile /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m355359539#355359539#0(0"0(0#0#62"/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m8626572064#1992"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GameEngineLayer.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/HelloWorldLayer.o /Users/studentuser/Desktop/GOstritch/Classes/HelloWorldLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s355312940.948668
@@ -2407,8 +2407,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@71"Compile /Users/studentuser/Documents/GOstrich/Classes/HelloWorldLayer.m355197151#355197152#0(0"0(0#0#63"/Users/studentuser/Documents/GOstrich/Classes/HelloWorldLayer.m8623430272#2003"    cd /Users/studentuser/Documents/GOstrich    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator -I/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/include -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-dqafzxdlozxvjocdmwogbooboxjz/GOstrich_Prefix.pch -c /Users/studentuser/Documents/GOstrich/Classes/HelloWorldLayer.m -o /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/HelloWorldLayer.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o /Users/studentuser/Desktop/GOstritch/Classes/Island.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s355353286.710037
-e355353286.853457
+s355357801.921575
+e355357802.171109
 r1
 xCompileC
 xbuild/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o
@@ -2417,7 +2417,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@61"Compile /Users/studentuser/Desktop/GOstritch/Classes/Island.m355353286#355353286#0(0"0(0#0#53"/Users/studentuser/Desktop/GOstritch/Classes/Island.m8610058464#1974"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Island.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o0#
+lSLF07#2@61"Compile /Users/studentuser/Desktop/GOstritch/Classes/Island.m355357801#355357802#0(0"0(0#0#53"/Users/studentuser/Desktop/GOstritch/Classes/Island.m8623732032#1974"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Island.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o /Users/studentuser/Documents/GOstrich/Classes/Island.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s355194739.681467
@@ -2433,8 +2433,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@62"Compile /Users/studentuser/Documents/GOstrich/Classes/Island.m355194739#355194739#0(0"0(0#0#54"/Users/studentuser/Documents/GOstrich/Classes/Island.m8620160416#1985"    cd /Users/studentuser/Documents/GOstrich    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator -I/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/include -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-dqafzxdlozxvjocdmwogbooboxjz/GOstrich_Prefix.pch -c /Users/studentuser/Documents/GOstrich/Classes/Island.m -o /Users/studentuser/Documents/GOstrich/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Island.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Line_Island.o /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s355353286.886589
-e355353287.060505
+s355359337.672130
+e355359337.904781
 r1
 xCompileC
 xbuild/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Line_Island.o
@@ -2450,12 +2450,12 @@ o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: will be
 o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: '...' as arguments.)
 o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:12: warning: 'Line_Island' may not respond to '-calc_init'
 o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '-[Line_Island draw]':
-o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:27: warning: unused variable 'p'
-lSLF07#2@66"Compile /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355353286#355353287#0(855"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '+[Line_Island init_pt1:pt2:]':/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: 'Line_Island' may not respond to '-set_pt1:pt2:'/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: (Messages without a matching method signature/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: will be assumed to return 'id' and accept/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: '...' as arguments.)/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:12: warning: 'Line_Island' may not respond to '-calc_init'/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '-[Line_Island draw]':/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:27: warning: unused variable 'p'4(22@48"'Line_Island' may not respond to '-set_pt1:pt2:'355353287#104#121#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355351818#11#0#11#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)355353287#225#118#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355351818#11#0#11#0#0"0(22@45"'Line_Island' may not respond to '-calc_init'355353287#550#118#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355351818#12#0#12#0#26"'*' may not respond to '*'0(22@19"Unused variable 'p'355353287#763#92#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355351818#27#0#27#0#19"unused variable '*'0(0#0#58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m8610450976#1984"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Line_Island.o0#
+o/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:37: warning: unused variable 'p'
+lSLF07#2@66"Compile /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355359337#355359337#0(855"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '+[Line_Island init_pt1:pt2:]':/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: 'Line_Island' may not respond to '-set_pt1:pt2:'/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: (Messages without a matching method signature/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: will be assumed to return 'id' and accept/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:11: warning: '...' as arguments.)/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:12: warning: 'Line_Island' may not respond to '-calc_init'/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '-[Line_Island draw]':/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:37: warning: unused variable 'p'4(22@48"'Line_Island' may not respond to '-set_pt1:pt2:'355359337#104#121#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355359333#11#0#11#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)355359337#225#118#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355359333#11#0#11#0#0"0(22@45"'Line_Island' may not respond to '-calc_init'355359337#550#118#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355359333#12#0#12#0#26"'*' may not respond to '*'0(22@19"Unused variable 'p'355359337#763#92#0(6@58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m355359333#37#0#37#0#19"unused variable '*'0(0#0#58"/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m8622232448#1984"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Line_Island.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Player.o /Users/studentuser/Desktop/GOstritch/Classes/Player.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s355353286.904315
-e355353287.045913
+s355357877.697421
+e355357877.900069
 r1
 xCompileC
 xbuild/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Player.o
@@ -2466,7 +2466,7 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 o/Users/studentuser/Desktop/GOstritch/Classes/Player.m: In function '-[Player draw]':
 o/Users/studentuser/Desktop/GOstritch/Classes/Player.m:16: warning: unused variable 'a'
-lSLF07#2@61"Compile /Users/studentuser/Desktop/GOstritch/Classes/Player.m355353286#355353287#0(172"/Users/studentuser/Desktop/GOstritch/Classes/Player.m: In function '-[Player draw]':/Users/studentuser/Desktop/GOstritch/Classes/Player.m:16: warning: unused variable 'a'1(22@19"Unused variable 'a'355353287#85#87#0(6@53"/Users/studentuser/Desktop/GOstritch/Classes/Player.m355351818#16#0#16#0#19"unused variable '*'0(0#0#53"/Users/studentuser/Desktop/GOstritch/Classes/Player.m8613829856#1974"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Player.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Player.o0#
+lSLF07#2@61"Compile /Users/studentuser/Desktop/GOstritch/Classes/Player.m355357877#355357877#0(172"/Users/studentuser/Desktop/GOstritch/Classes/Player.m: In function '-[Player draw]':/Users/studentuser/Desktop/GOstritch/Classes/Player.m:16: warning: unused variable 'a'1(22@19"Unused variable 'a'355357877#85#87#0(6@53"/Users/studentuser/Desktop/GOstritch/Classes/Player.m355357876#16#0#16#0#19"unused variable '*'0(0#0#53"/Users/studentuser/Desktop/GOstritch/Classes/Player.m8622310432#1974"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -include /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch -c /Users/studentuser/Desktop/GOstritch/Classes/Player.m -o /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/Player.o0#
 
 CCompileC build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/RootViewController.o /Users/studentuser/Desktop/GOstritch/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s355353286.698935
@@ -2671,13 +2671,13 @@ xResources/map/island1
 lSLF07#2@26"Copy Resources/map/island1355175088#355175088#0(0"0(0#0#59"/Users/studentuser/Documents/GOstrich/Resources/map/island18621463744#477"    cd /Users/studentuser/Documents/GOstrich    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Documents/GOstrich/Resources/map/island1 /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app0#
 
 CCpResource build/Debug-iphonesimulator/GOstrich.app/island1.map Resources/map/island1.map
-s355357428.670884
-e355357428.681911
+s355359428.642191
+e355359428.649899
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/GOstrich.app/island1.map
 xResources/map/island1.map
-lSLF07#2@30"Copy Resources/map/island1.map355357428#355357428#0(0"0(0#0#62"/Users/studentuser/Desktop/GOstritch/Resources/map/island1.map8623099328#478"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/GOstritch/Resources/map/island1.map /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app0#
+lSLF07#2@30"Copy Resources/map/island1.map355359428#355359428#0(0"0(0#0#62"/Users/studentuser/Desktop/GOstritch/Resources/map/island1.map8622017088#478"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Desktop/GOstritch/Resources/map/island1.map /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app0#
 
 CCpResource build/Debug-iphonesimulator/GOstrich.app/island1.txt Resources/map/island1.txt
 s355174604.260130
@@ -2728,13 +2728,13 @@ xResources/map/map_format
 lSLF07#2@29"Copy Resources/map/map_format355174604#355174604#0(0"0(0#0#62"/Users/studentuser/Documents/GOstrich/Resources/map/map_format8622837728#480"    cd /Users/studentuser/Documents/GOstrich    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/studentuser/Documents/GOstrich/Resources/map/map_format /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app0#
 
 CGenerateDSYMFile /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app.dSYM /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich
-s355357380.422474
-e355357380.575704
+s355359539.760424
+e355359539.933030
 r1
 xGenerateDSYMFile
 x/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app.dSYM
 x/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/GOstrich.app.dSYM build/Debug-iphonesimulator/GOstrich.app/GOstrich355357380#355357380#0(0"0(0#0#86"/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich8623392192#380"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich -o /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/GOstrich.app.dSYM build/Debug-iphonesimulator/GOstrich.app/GOstrich355359539#355359539#0(0"0(0#0#86"/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich8623862944#380"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich -o /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app.dSYM0#
 
 CGenerateDSYMFile /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app.dSYM /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app/GOstrich
 s355197152.303759
@@ -2746,14 +2746,14 @@ x/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app/
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/GOstrich.app.dSYM build/Debug-iphonesimulator/GOstrich.app/GOstrich355197152#355197152#0(0"0(0#0#87"/Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app/GOstrich8628367264#383"    cd /Users/studentuser/Documents/GOstrich    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app/GOstrich -o /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app.dSYM0#
 
 CLd /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich normal i386
-s355357380.184970
-e355357380.422286
+s355359539.365444
+e355359539.760325
 r1
 xLd
 x/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich
 xnormal
 xi386
-lSLF07#2@91"Link /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich355357380#355357380#0(0"0(0#0#0"8624907200#1050"    cd /Users/studentuser/Desktop/GOstritch    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -filelist /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrich.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich0#
+lSLF07#2@91"Link /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich355359539#355359539#0(0"0(0#0#0"8610520672#1050"    cd /Users/studentuser/Desktop/GOstritch    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -filelist /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/Objects-normal/i386/GOstrich.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app/GOstrich0#
 
 CLd /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app/GOstrich normal i386
 s355197152.005487
@@ -2804,12 +2804,12 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@30"Precompile GOstrich_Prefix.pch355353284#355353286#0(0"0(0#0#56"/Users/studentuser/Desktop/GOstritch/GOstrich_Prefix.pch5791462422001906688#1855"    cd /Users/studentuser/Desktop/GOstritch    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-generated-files.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-own-target-headers.hmap -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-all-target-headers.hmap -iquote /Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/GOstrich-project-headers.hmap -Wall -F/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator -I/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/include -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources/i386 -I/Users/studentuser/Desktop/GOstritch/build/GOstrich.build/Debug-iphonesimulator/GOstrich.build/DerivedSources -c /Users/studentuser/Desktop/GOstritch/GOstrich_Prefix.pch -o /var/folders/qS/qSPINpXkHouttpxVAofawU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GOstrich_Prefix-eprghtndlvuukfexutaiczuoblxh/GOstrich_Prefix.pch.gch0#
 
 CTouch /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app
-s355357428.683122
-e355357428.687500
+s355359539.933116
+e355359539.938968
 r1
 xTouch
 x/Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app
-lSLF07#2@83"Touch /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app355357428#355357428#0(0"0(0#0#0"8620221632#275"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app0#
+lSLF07#2@83"Touch /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app355359539#355359539#0(0"0(0#0#0"8626065856#275"    cd /Users/studentuser/Desktop/GOstritch    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/studentuser/Desktop/GOstritch/build/Debug-iphonesimulator/GOstrich.app0#
 
 CTouch /Users/studentuser/Documents/GOstrich/build/Debug-iphonesimulator/GOstrich.app
 s355197152.442602

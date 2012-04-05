@@ -1,8 +1,8 @@
 
 #import "GameEngineLayer.h"
 
-#define CAMERA_POS_X 100
-#define CAMERA_POS_Y 100
+#define PLAYER_START_X 50
+#define PLAYER_START_Y 50
 
 @implementation GameEngineLayer
 
@@ -21,11 +21,9 @@
 		
 		player = [Player init];
 		[self addChild:player];
-		player.position = ccp(CAMERA_POS_X,CAMERA_POS_Y);
-		player.pos_x = 10;
-		player.pos_y = 10;
+		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
 		player.vy = 0;
-		player.vx = 1;
+		player.vx = 5;
 		NSLog(@"%f,%f",CAMERA_OFFSET_X,CAMERA_OFFSET_Y);
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
@@ -49,14 +47,17 @@
 }
 
 -(void)update:(ccTime)dt {
-	float pre_y = player.pos_y;
-	float post_y = player.pos_y+player.vy;
+	float pos_x = player.position.x;
+	float pos_y = player.position.y;
+	
+	float pre_y = pos_y;
+	float post_y = pos_y+player.vy;
 	BOOL is_contact = NO;
 	Island *contact_island;
 	
 	float temp;
 	for (Island* i in islands) {
-		float h = [i get_height:player.pos_x];
+		float h = [i get_height:pos_x];
 		temp = h;
 		if (h != -1 && h <= pre_y && h >= post_y) {
 			is_contact = YES;
@@ -67,21 +68,25 @@
 	}
 	
 	if (is_contact) {
-		float mov_h = [contact_island get_height:(player.pos_x+player.vx)];
+		float mov_h = [contact_island get_height:(pos_x+player.vx)];
 		if (mov_h != -1) {
-			player.pos_x = player.pos_x + player.vx;
-			player.pos_y = mov_h;
+			pos_x = pos_x + player.vx;
+			pos_y = mov_h;
 		} else {
-			player.pos_x = player.pos_x + player.vx;
-			player.pos_y=post_y;
+			pos_x = pos_x + player.vx;
+			pos_y=post_y;
 		}
 		player.vy = 0;
 	} else {
-		player.pos_y+=player.vy; //move before incrementing velocity OR ELSE
-		player.pos_x+=player.vx;
+		pos_y+=player.vy; //move before incrementing velocity OR ELSE
+		pos_x+=player.vx;
 		player.vy-=0.5;
 	}
-	player.position=ccp(player.pos_x,player.pos_y);
+	player.position=ccp(pos_x,pos_y);
+	
+	if (player.position.y < 0) {
+		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
+	}
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {

@@ -11,7 +11,7 @@
 
 @implementation Island
 
-@synthesize startX, startY, endX, endY,pos_x,pos_y;
+@synthesize startX, startY, endX, endY;
 
 -(float)get_height:(float)pos {
 	return -1;
