@@ -1,8 +1,8 @@
 
 #import "GameEngineLayer.h"
 
-#define CAMERA_POS_X 350
-#define CAMERA_POS_Y 200
+#define CAMERA_POS_X 100
+#define CAMERA_POS_Y 100
 
 @implementation GameEngineLayer
 
@@ -22,20 +22,26 @@
 		player = [Player init];
 		[self addChild:player];
 		player.position = ccp(CAMERA_POS_X,CAMERA_POS_Y);
-		player.pos_x = 5;
-		player.pos_y = 100;
+		player.pos_x = 10;
+		player.pos_y = 10;
 		player.vy = 0;
-		player.vx = 0;
+		player.vx = 1;
 		NSLog(@"%f,%f",CAMERA_OFFSET_X,CAMERA_OFFSET_Y);
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
+		[self runAction:[CCFollow actionWithTarget:(player) worldBoundary:CGRectMake(0,0,3000,3000)]];
 	}
 	return self;
 }
 
 //read a map from map folder, load island and assets
 -(void) loadMap{
-	islands = [GameEngineLayer loadIslands]; //TODO: sort by y
+	islands = [GameEngineLayer loadIslands];
+	
+	NSSortDescriptor *sortDescriptor;
+	sortDescriptor = [[[NSSortDescriptor alloc] initWithKey:@"startY" ascending:NO] autorelease];
+	[islands sortUsingDescriptors:[NSArray arrayWithObject:sortDescriptor]];
+	
 	
 	for (Island* i in islands) { //TODO: make seperate methods for processing
 		[self addChild:i];
@@ -46,6 +52,7 @@
 	float pre_y = player.pos_y;
 	float post_y = player.pos_y+player.vy;
 	BOOL is_contact = NO;
+	Island *contact_island;
 	
 	float temp;
 	for (Island* i in islands) {
@@ -54,24 +61,27 @@
 		if (h != -1 && h <= pre_y && h >= post_y) {
 			is_contact = YES;
 			post_y = h;
+			contact_island = i;
 			break;
 		}
 	}
 	
 	if (is_contact) {
-		player.pos_y=post_y;
+		float mov_h = [contact_island get_height:(player.pos_x+player.vx)];
+		if (mov_h != -1) {
+			player.pos_x = player.pos_x + player.vx;
+			player.pos_y = mov_h;
+		} else {
+			player.pos_x = player.pos_x + player.vx;
+			player.pos_y=post_y;
+		}
 		player.vy = 0;
-		
 	} else {
 		player.pos_y+=player.vy; //move before incrementing velocity OR ELSE
+		player.pos_x+=player.vx;
 		player.vy-=0.5;
 	}
-	player.pos_x++;
-
-	for (Island* i in islands) {
-		i.position = ccp(i.startX-player.pos_x+CAMERA_POS_X,i.startY-player.pos_y+CAMERA_POS_Y);
-		NSLog(@"%f,%f",i.position.x,i.position.y);
-	}
+	player.position=ccp(player.pos_x,player.pos_y);
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {
