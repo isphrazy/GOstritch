@@ -21,13 +21,14 @@
 		
 		player = [Player init];
 		[self addChild:player];
-		player.pos_x = 100;
-		player.pos_y = 120;
+		player.pos_x = 50;
+		player.pos_y = 50;
 		player.vy = 0;
 		player.vx = 0;
 		player.position = ccp(CAMERA_POS_X,CAMERA_POS_X);
 		CAMERA_OFFSET_X = player.pos_x - CAMERA_POS_X;
 		CAMERA_OFFSET_Y = player.pos_y - CAMERA_POS_Y;
+		NSLog(@"%f,%f",CAMERA_OFFSET_X,CAMERA_OFFSET_Y);
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
 	}
@@ -70,7 +71,7 @@
 	player.pos_x++;
 
 	for (Island* i in islands) {
-		i.position = ccp(i.startX-player.pos_x+CAMERA_OFFSET_X,i.startY-player.pos_y+CAMERA_OFFSET_Y);
+		i.position = ccp(i.startX-player.pos_x-CAMERA_OFFSET_X*2,i.startY-player.pos_y-CAMERA_OFFSET_Y*2);
 	}
 }
 
