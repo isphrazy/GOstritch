@@ -13,7 +13,7 @@
 	float min_range, max_range,slope;
 }
 
-@property float min_range, max_range, slope;
+@property(readwrite,assign)  float min_range, max_range, slope;
 +(Line_Island*)init_pt1:(CGPoint)start pt2:(CGPoint)end;
 
 

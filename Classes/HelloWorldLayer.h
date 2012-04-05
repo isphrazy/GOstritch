@@ -11,10 +11,14 @@
 #import "CJSONDeserializer.h"
 #import "Line_Island.h"
 #import "Island.h"
+#import "Player.h"
 
 @interface HelloWorldLayer : CCLayer {
 	NSMutableArray *islands;
 	NSMutableArray *assets;
+	Player *player;
+	
+	float scroll_pos_x, scroll_pos_y;
 }
 
 +(CCScene *) scene;

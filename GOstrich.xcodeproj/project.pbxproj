@@ -19,6 +19,7 @@
 		494E2786152C3F07004EBE74 /* fg_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E2782152C3F07004EBE74 /* fg_test.png */; };
 		494E27A2152C403D004EBE74 /* bird1_hr.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E27A0152C403D004EBE74 /* bird1_hr.png */; };
 		494E27A3152C403D004EBE74 /* bird1_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E27A1152C403D004EBE74 /* bird1_sprite.png */; };
+		49931E34152D6D5500E2B320 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 49931E33152D6D5500E2B320 /* Player.m */; };
 		504DFBCE10AF12E9006D82FE /* CLScoreServerPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFBC810AF12E9006D82FE /* CLScoreServerPost.h */; };
 		504DFBCF10AF12E9006D82FE /* CLScoreServerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 504DFBC910AF12E9006D82FE /* CLScoreServerPost.m */; };
 		504DFBD010AF12E9006D82FE /* CLScoreServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFBCA10AF12E9006D82FE /* CLScoreServerRequest.h */; };
@@ -279,6 +280,8 @@
 		494E2782152C3F07004EBE74 /* fg_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fg_test.png; sourceTree = "<group>"; };
 		494E27A0152C403D004EBE74 /* bird1_hr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1_hr.png; sourceTree = "<group>"; };
 		494E27A1152C403D004EBE74 /* bird1_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1_sprite.png; sourceTree = "<group>"; };
+		49931E32152D6D5500E2B320 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		49931E33152D6D5500E2B320 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		504DFBC810AF12E9006D82FE /* CLScoreServerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLScoreServerPost.h; sourceTree = "<group>"; };
 		504DFBC910AF12E9006D82FE /* CLScoreServerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLScoreServerPost.m; sourceTree = "<group>"; };
 		504DFBCA10AF12E9006D82FE /* CLScoreServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLScoreServerRequest.h; sourceTree = "<group>"; };
@@ -624,6 +627,8 @@
 				4926F83C152B867C00A1EFDE /* Island.m */,
 				494E25A0152C236C004EBE74 /* Line_Island.h */,
 				494E25A1152C236C004EBE74 /* Line_Island.m */,
+				49931E32152D6D5500E2B320 /* Player.h */,
+				49931E33152D6D5500E2B320 /* Player.m */,
 			);
 			name = game_obj;
 			sourceTree = "<group>";
@@ -1206,6 +1211,7 @@
 				4926F83D152B867C00A1EFDE /* Island.m in Sources */,
 				4926F842152B868A00A1EFDE /* Assets.m in Sources */,
 				494E25A2152C236C004EBE74 /* Line_Island.m in Sources */,
+				49931E34152D6D5500E2B320 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

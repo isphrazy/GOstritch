@@ -16,30 +16,76 @@
 -(id) init{
 	if( (self=[super init])) {
 		[self loadMap];
+		
+		player = [Player init];
+		[self addChild:player];
+		player.pos_x = 250;
+		player.pos_y = 250;
+		player.vy = 0;
+		player.vx = 0;
+		player.position = ccp(250,250);
 		[self schedule:@selector(update:)];
+		self.isTouchEnabled = YES;
 	}
 	return self;
 }
 
 //read a map from map folder, load island and assets
 -(void) loadMap{
-	NSLog(@"loading map");
-	islands = [HelloWorldLayer loadIslands];
-	NSLog(@"finished loading");
+	islands = [HelloWorldLayer loadIslands]; //TODO: sort by y
 	
 	for (Island* i in islands) { //TODO: make seperate methods for processing
 		[self addChild:i];
 	}
-	
 }
 
 -(void)update:(ccTime)dt {
-	//TODO: create/add player, update and check islands->collision
+	float pre_y = player.pos_y;
+	float post_y = player.pos_y+player.vy;
+	BOOL is_contact = NO;
+	
+	for (Island* i in islands) {
+		float h = [i get_height:player.pos_x];
+		if (h != -1 && h <= pre_y && h >= post_y) {
+			is_contact = YES;
+			post_y = h;
+			break;
+		}
+	}
+	
+	if (is_contact) {
+		player.pos_y=post_y;
+		player.vy = 0;
+	} else {
+		player.vy-=2.3123;
+		player.pos_y+=player.vy;
+		if (pre_y < 120 && post_y > 80) {
+			NSLog(@"pre:%f post%f",pre_y, post_y);
+		}
+	}
+	player.pos_x+=player.vx;
+	
+	player.position = ccp(player.pos_x,player.pos_y);
+	
+	
+	for (Island* i in islands) {
+
+	}	
+}
+
+-(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent { //ccTouchesBeganWithEvent
+	
+}
+
+-(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
+}
+
+-(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
+	player.vy = 25;
 }
 
 
--(void) loadAssets{
-}
+
 
 - (void) dealloc{
 
@@ -56,7 +102,9 @@
 	NSArray *islandArray = [[CJSONDeserializer deserializer] deserializeAsArray : islandData error : nil ];
 	
 	int islandsCount = [islandArray count];
-	NSMutableArray *n_islands = [NSMutableArray arrayWithCapacity:islandsCount];
+	
+	NSMutableArray *n_islands = [[NSMutableArray alloc] init];
+	
 	int i;
 	for(i = 0; i < islandsCount; i++){
 		NSDictionary *currentIslandDict = (NSDictionary *)[islandArray objectAtIndex:i];

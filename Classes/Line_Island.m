@@ -11,6 +11,11 @@
 	[new_island set_pt1:start pt2:end];
 	[new_island calc_init];
 	new_island.anchorPoint = ccp(0,0);
+	
+	new_island.pos_x = new_island.startX;
+	new_island.pos_y = new_island.startY;
+	new_island.position = ccp(new_island.pos_x,new_island.pos_y);
+	
 	return new_island;
 	
 }
@@ -20,7 +25,7 @@
 	glColor4f(1.0f,0,0,1.0f);
 	glLineWidth(2.0f);
 	CGPoint p = [self position];
-	ccDrawLine(ccp(startX+p.x,startY+p.y), ccp(endX+p.x,endY+p.y));
+	ccDrawLine(ccp(0,0), ccp(endX-startX,endY-startY));
 	
 }
 

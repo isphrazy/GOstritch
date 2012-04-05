@@ -10,11 +10,10 @@
 #import "cocos2d.h"
 
 @interface Island : CCSprite {
-	float startX, startY, endX, endY;
+	float startX, startY, endX, endY, pos_x, pos_y;
 }
 
-@property float startX, startY, endX, endY;
-//@property (readwrite,retain) CCSprite *display_sprite;
+@property(readwrite,assign)  float startX, startY, endX, endY, pos_x, pos_y;
 
 -(float)get_height:(float)pos;
 
