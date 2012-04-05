@@ -528,6 +528,67 @@
 			499320EC152D8B7C00E2B320 /* PBXTextBookmark */ = 499320EC152D8B7C00E2B320 /* PBXTextBookmark */;
 			499320EF152D8BFD00E2B320 /* PBXTextBookmark */ = 499320EF152D8BFD00E2B320 /* PBXTextBookmark */;
 			499320F0152D8BFD00E2B320 /* PBXTextBookmark */ = 499320F0152D8BFD00E2B320 /* PBXTextBookmark */;
+			499320F9152D8D4C00E2B320 /* PBXTextBookmark */ = 499320F9152D8D4C00E2B320 /* PBXTextBookmark */;
+			499320FA152D8D4C00E2B320 /* PBXTextBookmark */ = 499320FA152D8D4C00E2B320 /* PBXTextBookmark */;
+			499320FB152D8E0E00E2B320 /* PBXTextBookmark */ = 499320FB152D8E0E00E2B320 /* PBXTextBookmark */;
+			499320FC152D8E0E00E2B320 /* PBXTextBookmark */ = 499320FC152D8E0E00E2B320 /* PBXTextBookmark */;
+			499320FF152D8E9000E2B320 /* PBXTextBookmark */ = 499320FF152D8E9000E2B320 /* PBXTextBookmark */;
+			49932100152D8E9000E2B320 /* PBXTextBookmark */ = 49932100152D8E9000E2B320 /* PBXTextBookmark */;
+			49932103152D8F3800E2B320 /* PBXTextBookmark */ = 49932103152D8F3800E2B320 /* PBXTextBookmark */;
+			49932104152D8F3800E2B320 /* PBXTextBookmark */ = 49932104152D8F3800E2B320 /* PBXTextBookmark */;
+			49932107152D8F5300E2B320 /* PBXTextBookmark */ = 49932107152D8F5300E2B320 /* PBXTextBookmark */;
+			49932108152D8F5300E2B320 /* PBXTextBookmark */ = 49932108152D8F5300E2B320 /* PBXTextBookmark */;
+			4993210B152D8F6B00E2B320 /* PBXTextBookmark */ = 4993210B152D8F6B00E2B320 /* PBXTextBookmark */;
+			4993210C152D8F6B00E2B320 /* PBXTextBookmark */ = 4993210C152D8F6B00E2B320 /* PBXTextBookmark */;
+			4993210F152D8FB900E2B320 /* PBXTextBookmark */ = 4993210F152D8FB900E2B320 /* PBXTextBookmark */;
+			49932110152D8FB900E2B320 /* PBXTextBookmark */ = 49932110152D8FB900E2B320 /* PBXTextBookmark */;
+			49932113152D8FC900E2B320 /* PBXTextBookmark */ = 49932113152D8FC900E2B320 /* PBXTextBookmark */;
+			49932114152D8FC900E2B320 /* PBXTextBookmark */ = 49932114152D8FC900E2B320 /* PBXTextBookmark */;
+			49932117152D901B00E2B320 /* PBXTextBookmark */ = 49932117152D901B00E2B320 /* PBXTextBookmark */;
+			49932118152D901B00E2B320 /* PBXTextBookmark */ = 49932118152D901B00E2B320 /* PBXTextBookmark */;
+			49932119152D901B00E2B320 /* PBXTextBookmark */ = 49932119152D901B00E2B320 /* PBXTextBookmark */;
+			4993211A152D901B00E2B320 /* PBXTextBookmark */ = 4993211A152D901B00E2B320 /* PBXTextBookmark */;
+			4993211D152D903300E2B320 /* PBXTextBookmark */ = 4993211D152D903300E2B320 /* PBXTextBookmark */;
+			4993211E152D903300E2B320 /* PBXTextBookmark */ = 4993211E152D903300E2B320 /* PBXTextBookmark */;
+			4993211F152D903300E2B320 /* PBXTextBookmark */ = 4993211F152D903300E2B320 /* PBXTextBookmark */;
+			49932122152D908300E2B320 /* PBXTextBookmark */ = 49932122152D908300E2B320 /* PBXTextBookmark */;
+			49932123152D908300E2B320 /* PBXTextBookmark */ = 49932123152D908300E2B320 /* PBXTextBookmark */;
+			49932126152D90BA00E2B320 /* PBXTextBookmark */ = 49932126152D90BA00E2B320 /* PBXTextBookmark */;
+			49932127152D90BA00E2B320 /* PBXTextBookmark */ = 49932127152D90BA00E2B320 /* PBXTextBookmark */;
+			4993212A152D90F300E2B320 /* PBXTextBookmark */ = 4993212A152D90F300E2B320 /* PBXTextBookmark */;
+			4993212B152D90F300E2B320 /* PBXTextBookmark */ = 4993212B152D90F300E2B320 /* PBXTextBookmark */;
+			4993212E152D910700E2B320 /* PBXTextBookmark */ = 4993212E152D910700E2B320 /* PBXTextBookmark */;
+			4993212F152D910700E2B320 /* PBXTextBookmark */ = 4993212F152D910700E2B320 /* PBXTextBookmark */;
+			49932132152D914D00E2B320 /* PBXTextBookmark */ = 49932132152D914D00E2B320 /* PBXTextBookmark */;
+			49932133152D914D00E2B320 /* PBXTextBookmark */ = 49932133152D914D00E2B320 /* PBXTextBookmark */;
+			49932138152D918F00E2B320 /* PBXTextBookmark */ = 49932138152D918F00E2B320 /* PBXTextBookmark */;
+			49932139152D918F00E2B320 /* PBXTextBookmark */ = 49932139152D918F00E2B320 /* PBXTextBookmark */;
+			4993213C152D92E700E2B320 /* PBXTextBookmark */ = 4993213C152D92E700E2B320 /* PBXTextBookmark */;
+			4993213D152D92E700E2B320 /* PBXTextBookmark */ = 4993213D152D92E700E2B320 /* PBXTextBookmark */;
+			49932140152D935A00E2B320 /* PBXTextBookmark */ = 49932140152D935A00E2B320 /* PBXTextBookmark */;
+			49932141152D935A00E2B320 /* PBXTextBookmark */ = 49932141152D935A00E2B320 /* PBXTextBookmark */;
+			49932142152D935A00E2B320 /* PBXTextBookmark */ = 49932142152D935A00E2B320 /* PBXTextBookmark */;
+			49932143152D935A00E2B320 /* PBXTextBookmark */ = 49932143152D935A00E2B320 /* PBXTextBookmark */;
+			49932146152D93A600E2B320 /* PBXTextBookmark */ = 49932146152D93A600E2B320 /* PBXTextBookmark */;
+			49932147152D93A600E2B320 /* PBXTextBookmark */ = 49932147152D93A600E2B320 /* PBXTextBookmark */;
+			49932148152D93A600E2B320 /* PBXTextBookmark */ = 49932148152D93A600E2B320 /* PBXTextBookmark */;
+			49932149152D93A600E2B320 /* PBXTextBookmark */ = 49932149152D93A600E2B320 /* PBXTextBookmark */;
+			4993214C152D93B100E2B320 /* PBXTextBookmark */ = 4993214C152D93B100E2B320 /* PBXTextBookmark */;
+			4993214D152D93B100E2B320 /* PBXTextBookmark */ = 4993214D152D93B100E2B320 /* PBXTextBookmark */;
+			49932150152D93CC00E2B320 /* PBXTextBookmark */ = 49932150152D93CC00E2B320 /* PBXTextBookmark */;
+			49932151152D93CC00E2B320 /* PBXTextBookmark */ = 49932151152D93CC00E2B320 /* PBXTextBookmark */;
+			49932154152D93F000E2B320 /* PBXTextBookmark */ = 49932154152D93F000E2B320 /* PBXTextBookmark */;
+			49932155152D93F000E2B320 /* PBXTextBookmark */ = 49932155152D93F000E2B320 /* PBXTextBookmark */;
+			49932158152D940400E2B320 /* PBXTextBookmark */ = 49932158152D940400E2B320 /* PBXTextBookmark */;
+			49932159152D940400E2B320 /* PBXTextBookmark */ = 49932159152D940400E2B320 /* PBXTextBookmark */;
+			4993215C152D941600E2B320 /* PBXTextBookmark */ = 4993215C152D941600E2B320 /* PBXTextBookmark */;
+			4993215D152D941600E2B320 /* PBXTextBookmark */ = 4993215D152D941600E2B320 /* PBXTextBookmark */;
+			49932160152D943000E2B320 /* PBXTextBookmark */ = 49932160152D943000E2B320 /* PBXTextBookmark */;
+			49932161152D943000E2B320 /* PBXTextBookmark */ = 49932161152D943000E2B320 /* PBXTextBookmark */;
+			49932164152D944400E2B320 /* PBXTextBookmark */ = 49932164152D944400E2B320 /* PBXTextBookmark */;
+			49932165152D944400E2B320 /* PBXTextBookmark */ = 49932165152D944400E2B320 /* PBXTextBookmark */;
+			49932168152D945F00E2B320 /* PBXTextBookmark */ = 49932168152D945F00E2B320 /* PBXTextBookmark */;
+			49932169152D945F00E2B320 /* PBXTextBookmark */ = 49932169152D945F00E2B320 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4926F75D152AB39000A1EFDE /* Source Control */;
 		userBuildSettings = {
@@ -664,8 +725,8 @@
 	4926F8D7152BCBFF00A1EFDE /* island1.map */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1063, 1017}}";
-			sepNavSelRange = "{51, 1}";
-			sepNavVisRange = "{0, 59}";
+			sepNavSelRange = "{51, 0}";
+			sepNavVisRange = "{0, 58}";
 			sepNavWindowFrame = "{{1318, 18}, {1562, 756}}";
 		};
 	};
@@ -734,7 +795,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 6";
 		rLen = 0;
-		rLoc = 57;
+		rLoc = 56;
 		rType = 0;
 		vrLen = 287;
 		vrLoc = 0;
@@ -754,7 +815,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 1690;
+		rLoc = 1886;
 		rType = 0;
 		vrLen = 2237;
 		vrLoc = 0;
@@ -927,7 +988,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 34";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 920;
 		rType = 0;
 		vrLen = 2279;
 		vrLoc = 1;
@@ -1256,7 +1317,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 64;
@@ -1326,7 +1387,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2289;
 		vrLoc = 63;
@@ -1336,7 +1397,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 37";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 920;
 		rType = 0;
 		vrLen = 2247;
 		vrLoc = 84;
@@ -1356,7 +1417,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 37";
 		rLen = 0;
-		rLoc = 804;
+		rLoc = 920;
 		rType = 0;
 		vrLen = 2247;
 		vrLoc = 84;
@@ -1406,7 +1467,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 42";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2165;
 		vrLoc = 133;
@@ -1426,7 +1487,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 42";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2165;
 		vrLoc = 133;
@@ -1505,7 +1566,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2270;
 		vrLoc = 0;
@@ -1575,7 +1636,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2270;
 		vrLoc = 0;
@@ -1635,7 +1696,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2270;
 		vrLoc = 0;
@@ -1645,7 +1706,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 31";
 		rLen = 0;
-		rLoc = 553;
+		rLoc = 669;
 		rType = 0;
 		vrLen = 2269;
 		vrLoc = 1;
@@ -1675,7 +1736,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2270;
 		vrLoc = 30;
@@ -1705,7 +1766,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2249;
 		vrLoc = 63;
@@ -1735,7 +1796,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2330;
 		vrLoc = 84;
@@ -1765,7 +1826,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2156;
 		vrLoc = 133;
@@ -1795,7 +1856,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 44";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2206;
 		vrLoc = 133;
@@ -1895,7 +1956,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 44";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2206;
 		vrLoc = 133;
@@ -1905,7 +1966,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2268;
 		vrLoc = 167;
@@ -1935,7 +1996,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2275;
 		vrLoc = 167;
@@ -1995,7 +2056,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2270;
 		vrLoc = 167;
@@ -2115,7 +2176,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 35";
 		rLen = 0;
-		rLoc = 573;
+		rLoc = 689;
 		rType = 0;
 		vrLen = 2220;
 		vrLoc = 217;
@@ -2145,7 +2206,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2123;
 		vrLoc = 217;
@@ -2175,7 +2236,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2141;
 		vrLoc = 258;
@@ -2205,7 +2266,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2168;
 		vrLoc = 243;
@@ -2235,7 +2296,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 47";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2159;
 		vrLoc = 260;
@@ -2265,7 +2326,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2251;
 		vrLoc = 31;
@@ -2295,7 +2356,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 19";
 		rLen = 0;
-		rLoc = 319;
+		rLoc = 375;
 		rType = 0;
 		vrLen = 2343;
 		vrLoc = 64;
@@ -2325,7 +2386,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2357;
 		vrLoc = 84;
@@ -2355,7 +2416,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2396;
 		vrLoc = 84;
@@ -2445,7 +2506,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2279;
 		vrLoc = 133;
@@ -2475,7 +2536,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 44";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2252;
 		vrLoc = 217;
@@ -2505,7 +2566,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2247;
 		vrLoc = 258;
@@ -2535,7 +2596,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2225;
 		vrLoc = 217;
@@ -2565,7 +2626,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 243;
@@ -2595,7 +2656,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2162;
 		vrLoc = 260;
@@ -2635,7 +2696,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2162;
 		vrLoc = 260;
@@ -2645,7 +2706,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 41";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 261;
@@ -2675,7 +2736,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 71";
 		rLen = 0;
-		rLoc = 2308;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 2199;
 		vrLoc = 260;
@@ -2705,7 +2766,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 72";
 		rLen = 0;
-		rLoc = 2310;
+		rLoc = 2506;
 		rType = 0;
 		vrLen = 2260;
 		vrLoc = 261;
@@ -2735,7 +2796,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 73";
 		rLen = 0;
-		rLoc = 2308;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 2208;
 		vrLoc = 274;
@@ -2765,7 +2826,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2070;
 		vrLoc = 1;
@@ -2795,7 +2856,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 46";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2221;
 		vrLoc = 30;
@@ -2825,7 +2886,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 2283;
 		vrLoc = 63;
@@ -2855,7 +2916,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 2305;
 		vrLoc = 84;
@@ -2885,7 +2946,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 2262;
 		vrLoc = 133;
@@ -2935,7 +2996,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 45";
 		rLen = 0;
-		rLoc = 1043;
+		rLoc = 1159;
 		rType = 0;
 		vrLen = 2126;
 		vrLoc = 133;
@@ -2945,7 +3006,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 43";
 		rLen = 0;
-		rLoc = 917;
+		rLoc = 1033;
 		rType = 0;
 		vrLen = 2108;
 		vrLoc = 133;
@@ -2975,7 +3036,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 47";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1149;
 		rType = 0;
 		vrLen = 1797;
 		vrLoc = 167;
@@ -3005,7 +3066,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1767;
 		vrLoc = 243;
@@ -3035,7 +3096,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 27";
 		rLen = 0;
-		rLoc = 434;
+		rLoc = 490;
 		rType = 0;
 		vrLen = 1925;
 		vrLoc = 260;
@@ -3065,7 +3126,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 2088;
 		vrLoc = 262;
@@ -3095,7 +3156,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 2157;
 		vrLoc = 274;
@@ -3125,7 +3186,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 58";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 418;
@@ -3155,7 +3216,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 47";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1176;
 		rType = 0;
 		vrLen = 2254;
 		vrLoc = 451;
@@ -3185,7 +3246,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 29";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 542;
 		rType = 0;
 		vrLen = 2150;
 		vrLoc = 302;
@@ -3215,7 +3276,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 29";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 542;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 396;
@@ -3245,7 +3306,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2196;
 		vrLoc = 422;
@@ -3275,7 +3336,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2285;
 		vrLoc = 425;
@@ -3305,7 +3366,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1791;
 		vrLoc = 243;
@@ -3315,7 +3376,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 57;
+		rLoc = 56;
 		rType = 0;
 		vrLen = 58;
 		vrLoc = 0;
@@ -3375,7 +3436,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1755;
 		vrLoc = 243;
@@ -3385,7 +3446,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 25";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 1759;
 		vrLoc = 258;
@@ -3415,7 +3476,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 29";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 542;
 		rType = 0;
 		vrLen = 1874;
 		vrLoc = 261;
@@ -3445,7 +3506,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 29";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 542;
 		rType = 0;
 		vrLen = 2032;
 		vrLoc = 274;
@@ -3475,7 +3536,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 65";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2157;
 		vrLoc = 320;
@@ -3505,7 +3566,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 65";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2108;
 		vrLoc = 396;
@@ -3535,7 +3596,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 65";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2159;
 		vrLoc = 422;
@@ -3565,7 +3626,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 65";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2279;
 		vrLoc = 451;
@@ -3595,7 +3656,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2135;
 		vrLoc = 320;
@@ -3635,7 +3696,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 2135;
 		vrLoc = 320;
@@ -3645,7 +3706,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 1;
@@ -3675,7 +3736,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 26";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 1;
@@ -3685,7 +3746,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 54;
+		rLoc = 53;
 		rType = 0;
 		vrLen = 56;
 		vrLoc = 0;
@@ -3715,7 +3776,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 54;
+		rLoc = 53;
 		rType = 0;
 		vrLen = 56;
 		vrLoc = 0;
@@ -3735,7 +3796,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 29;
@@ -3765,7 +3826,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 66";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 1665;
 		vrLoc = 31;
@@ -3795,7 +3856,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 51";
 		rLen = 0;
-		rLoc = 1106;
+		rLoc = 1222;
 		rType = 0;
 		vrLen = 1656;
 		vrLoc = 64;
@@ -3825,7 +3886,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 67";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 1;
@@ -3855,7 +3916,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 54;
+		rLoc = 53;
 		rType = 0;
 		vrLen = 58;
 		vrLoc = 0;
@@ -3875,7 +3936,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 36";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 847;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 1;
@@ -3885,7 +3946,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 36";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 847;
 		rType = 0;
 		vrLen = 1483;
 		vrLoc = 29;
@@ -3915,7 +3976,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 51";
 		rLen = 0;
-		rLoc = 1106;
+		rLoc = 1222;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 31;
@@ -3945,7 +4006,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 1660;
 		vrLoc = 64;
@@ -3975,7 +4036,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1386;
+		rLoc = 1609;
 		rType = 0;
 		vrLen = 1802;
 		vrLoc = 243;
@@ -4065,7 +4126,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 24";
 		rLen = 0;
-		rLoc = 434;
+		rLoc = 490;
 		rType = 0;
 		vrLen = 1727;
 		vrLoc = 258;
@@ -4095,7 +4156,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 60";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1789;
 		vrLoc = 261;
@@ -4125,7 +4186,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 60";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1785;
 		vrLoc = 274;
@@ -4155,7 +4216,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 60";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1856;
 		vrLoc = 320;
@@ -4185,7 +4246,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 60";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 2025;
 		vrLoc = 323;
@@ -4225,7 +4286,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 74";
 		rLen = 0;
-		rLoc = 1649;
+		rLoc = 1845;
 		rType = 0;
 		vrLen = 2091;
 		vrLoc = 323;
@@ -4235,7 +4296,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 28";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 655;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 0;
@@ -4265,7 +4326,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 82";
 		rLen = 0;
-		rLoc = 1644;
+		rLoc = 1840;
 		rType = 0;
 		vrLen = 2220;
 		vrLoc = 864;
@@ -4295,7 +4356,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 985;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 2232;
 		vrLoc = 807;
@@ -4305,7 +4366,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 53;
+		rLoc = 52;
 		rType = 0;
 		vrLen = 58;
 		vrLoc = 0;
@@ -4335,7 +4396,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 985;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 2232;
 		vrLoc = 807;
@@ -4355,7 +4416,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 53;
+		rLoc = 52;
 		rType = 0;
 		vrLen = 58;
 		vrLoc = 0;
@@ -4365,7 +4426,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 53;
+		rLoc = 52;
 		rType = 0;
 		vrLen = 59;
 		vrLoc = 0;
@@ -4395,7 +4456,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 53;
+		rLoc = 52;
 		rType = 0;
 		vrLen = 59;
 		vrLoc = 0;
@@ -4405,7 +4466,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 49";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1176;
 		rType = 0;
 		vrLen = 1827;
 		vrLoc = 487;
@@ -4435,7 +4496,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 1010;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 1813;
 		vrLoc = 554;
@@ -4465,7 +4526,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 48";
 		rLen = 0;
-		rLoc = 1010;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 1977;
 		vrLoc = 557;
@@ -4495,7 +4556,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 61";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 2038;
 		vrLoc = 573;
@@ -4525,7 +4586,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 44";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 1009;
 		rType = 0;
 		vrLen = 2148;
 		vrLoc = 627;
@@ -4555,7 +4616,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 61";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 2101;
 		vrLoc = 704;
@@ -4585,7 +4646,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 61";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1438;
 		vrLoc = 260;
@@ -4615,7 +4676,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 61";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1440;
 		vrLoc = 258;
@@ -4695,7 +4756,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 61";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1439;
 		vrLoc = 258;
@@ -4705,7 +4766,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1277;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 260;
@@ -4735,7 +4796,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 62";
 		rLen = 0;
-		rLoc = 1270;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 1674;
 		vrLoc = 375;
@@ -4755,7 +4816,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 84";
 		rLen = 0;
-		rLoc = 1643;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1809;
 		vrLoc = 436;
@@ -4775,7 +4836,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 84";
 		rLen = 0;
-		rLoc = 1643;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1795;
 		vrLoc = 487;
@@ -4795,7 +4856,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 60";
 		rLen = 0;
-		rLoc = 1237;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 2182;
 		vrLoc = 557;
@@ -4815,7 +4876,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 62";
 		rLen = 0;
-		rLoc = 1263;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 2253;
 		vrLoc = 573;
@@ -4835,7 +4896,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1324;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 2116;
 		vrLoc = 453;
@@ -4855,7 +4916,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1324;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 2116;
 		vrLoc = 453;
@@ -4865,7 +4926,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 53;
+		rLoc = 52;
 		rType = 0;
 		vrLen = 59;
 		vrLoc = 0;
@@ -4875,7 +4936,7 @@
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 51;
 		rType = 0;
 		vrLen = 58;
 		vrLoc = 0;
@@ -4894,7 +4955,7 @@
 		isa = PBXTextBookmark;
 		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
 		name = "island1.map: 2";
-		rLen = 1;
+		rLen = 0;
 		rLoc = 51;
 		rType = 0;
 		vrLen = 59;
@@ -4905,7 +4966,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1324;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 2037;
 		vrLoc = 453;
@@ -4915,7 +4976,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 63";
 		rLen = 0;
-		rLoc = 1324;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 2037;
 		vrLoc = 453;
@@ -4935,7 +4996,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 65";
 		rLen = 0;
-		rLoc = 1305;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 1949;
 		vrLoc = 487;
@@ -4955,7 +5016,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 64";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 1795;
 		vrLoc = 302;
@@ -4975,7 +5036,7 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 67";
 		rLen = 0;
-		rLoc = 1335;
+		rLoc = 1426;
 		rType = 0;
 		vrLen = 1794;
 		vrLoc = 302;
@@ -4995,12 +5056,622 @@
 		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
 		name = "HelloWorldLayer.m: 62";
 		rLen = 0;
-		rLoc = 1221;
+		rLoc = 1384;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 258;
 	};
 	499320F0152D8BFD00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	499320F9152D8D4C00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1681;
+		rType = 0;
+		vrLen = 1574;
+		vrLoc = 1;
+	};
+	499320FA152D8D4C00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	499320FB152D8E0E00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1613;
+		vrLoc = 29;
+	};
+	499320FC152D8E0E00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	499320FF152D8E9000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1680;
+		vrLoc = 31;
+	};
+	49932100152D8E9000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932103152D8F3800E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 23";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1648;
+		vrLoc = 63;
+	};
+	49932104152D8F3800E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932107152D8F5300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 23";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 84;
+	};
+	49932108152D8F5300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993210B152D8F6B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 167;
+	};
+	4993210C152D8F6B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993210F152D8FB900E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 69";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 243;
+	};
+	49932110152D8FB900E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932113152D8FC900E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 62";
+		rLen = 0;
+		rLoc = 1303;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 258;
+	};
+	49932114152D8FC900E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932117152D901B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 23";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 258;
+	};
+	49932118152D901B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
+		name = "island1.map: 2";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 59;
+		vrLoc = 0;
+	};
+	49932119152D901B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
+		name = "island1.map: 2";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 58;
+		vrLoc = 0;
+	};
+	4993211A152D901B00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993211D152D903300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */;
+		name = "island1.map: 2";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 58;
+		vrLoc = 0;
+	};
+	4993211E152D903300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 70";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 260;
+	};
+	4993211F152D903300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932122152D908300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 71";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 262;
+	};
+	49932123152D908300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932126152D90BA00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 70";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1614;
+		vrLoc = 262;
+	};
+	49932127152D90BA00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993212A152D90F300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 68";
+		rLen = 0;
+		rLoc = 1430;
+		rType = 0;
+		vrLen = 1757;
+		vrLoc = 302;
+	};
+	4993212B152D90F300E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993212E152D910700E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 65";
+		rLen = 0;
+		rLoc = 1401;
+		rType = 0;
+		vrLen = 1844;
+		vrLoc = 323;
+	};
+	4993212F152D910700E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932132152D914D00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 27";
+		rLen = 0;
+		rLoc = 585;
+		rType = 0;
+		vrLen = 1715;
+		vrLoc = 262;
+	};
+	49932133152D914D00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932138152D918F00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 23";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1848;
+		vrLoc = 323;
+	};
+	49932139152D918F00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993213C152D92E700E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 70";
+		rLen = 0;
+		rLoc = 1606;
+		rType = 0;
+		vrLen = 1658;
+		vrLoc = 63;
+	};
+	4993213D152D92E700E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932140152D935A00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 22";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 1738;
+		vrLoc = 31;
+	};
+	49932141152D935A00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* HelloWorldLayer.h */;
+		name = "HelloWorldLayer.h: 22";
+		rLen = 0;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 0;
+	};
+	49932142152D935A00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* HelloWorldLayer.h */;
+		name = "HelloWorldLayer.h: 22";
+		rLen = 0;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 0;
+	};
+	49932143152D935A00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 0;
+	};
+	49932146152D93A600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC2F102F528A00A389B3 /* HelloWorldLayer.h */;
+		name = "HelloWorldLayer.h: 21";
+		rLen = 0;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	49932147152D93A600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 22";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 1739;
+		vrLoc = 30;
+	};
+	49932148152D93A600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 1734;
+		vrLoc = 1;
+	};
+	49932149152D93A600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993214C152D93B100E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 5";
+		rLen = 0;
+		rLoc = 82;
+		rType = 0;
+		vrLen = 1706;
+		vrLoc = 30;
+	};
+	4993214D152D93B100E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932150152D93CC00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 29";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 1760;
+		vrLoc = 84;
+	};
+	49932151152D93CC00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932154152D93F000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 25";
+		rLen = 0;
+		rLoc = 473;
+		rType = 0;
+		vrLen = 1704;
+		vrLoc = 117;
+	};
+	49932155152D93F000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932158152D940400E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 24";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 1707;
+		vrLoc = 118;
+	};
+	49932159152D940400E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	4993215C152D941600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 4";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 1734;
+		vrLoc = 1;
+	};
+	4993215D152D941600E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932160152D943000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 25";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 1708;
+		vrLoc = 30;
+	};
+	49932161152D943000E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932164152D944400E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 1734;
+		vrLoc = 1;
+	};
+	49932165152D944400E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
+		name = "Player.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 0;
+	};
+	49932168152D945F00E2B320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 506EDC30102F528A00A389B3 /* HelloWorldLayer.m */;
+		name = "HelloWorldLayer.m: 70";
+		rLen = 0;
+		rLoc = 1424;
+		rType = 0;
+		vrLen = 1724;
+		vrLoc = 30;
+	};
+	49932169152D945F00E2B320 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 49931E33152D6D5500E2B320 /* Player.m */;
 		name = "Player.m: 15";
@@ -5019,17 +5690,17 @@
 	};
 	506EDC2F102F528A00A389B3 /* HelloWorldLayer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1063, 1017}}";
-			sepNavSelRange = "{408, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1063, 1040}}";
+			sepNavSelRange = "{406, 0}";
 			sepNavVisRange = "{0, 485}";
 			sepNavWindowFrame = "{{15, 76}, {750, 697}}";
 		};
 	};
 	506EDC30102F528A00A389B3 /* HelloWorldLayer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1063, 1768}}";
-			sepNavSelRange = "{1221, 0}";
-			sepNavVisRange = "{258, 1511}";
+			sepNavIntBoundsRect = "{{0, 0}, {1063, 1976}}";
+			sepNavSelRange = "{1424, 0}";
+			sepNavVisRange = "{30, 1724}";
 			sepNavWindowFrame = "{{1602, -400}, {1278, 720}}";
 		};
 	};

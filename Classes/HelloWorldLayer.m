@@ -1,6 +1,8 @@
 
 #import "HelloWorldLayer.h"
 
+#define CAMERA_OFFSET_X 100
+#define CAMERA_OFFSET_Y 100
 
 @implementation HelloWorldLayer
 
@@ -19,11 +21,12 @@
 		
 		player = [Player init];
 		[self addChild:player];
-		player.pos_x = 250;
-		player.pos_y = 250;
+		player.pos_x = 100;
+		player.pos_y = 120;
 		player.vy = 0;
 		player.vx = 0;
-		player.position = ccp(250,250);
+		//player.position = ccp(250,250);
+		player.position = ccp(CAMERA_OFFSET_X,CAMERA_OFFSET_X);
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
 	}
@@ -58,18 +61,21 @@
 	if (is_contact) {
 		player.pos_y=post_y;
 		player.vy = 0;
+		
 	} else {
-		player.pos_y+=player.vy;
-		player.vy-=10;
-		if (pre_y < 251 && pre_y > 80) {
-			NSLog(@"pre:%f post%f col:%f",pre_y,post_y,temp);
-		}
+		player.pos_y+=player.vy; //move before incrementing velocity OR ELSE
+		player.vy-=0.5;
 	}
 	
-	player.position = ccp(player.pos_x,player.pos_y);	
+	player.pos_x++;
+	
+	//player.position = ccp(player.pos_x,player.pos_y);
+	for (Island* i in islands) {
+		i.position = ccp(i.startX-player.pos_x+CAMERA_OFFSET_X,i.startY-player.pos_y+CAMERA_OFFSET_Y);
+	}
 }
 
--(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent { //ccTouchesBeganWithEvent
+-(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {
 	
 }
 
@@ -77,7 +83,7 @@
 }
 
 -(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
-	player.vy = 25;
+	player.vy = 10;
 }
 
 
