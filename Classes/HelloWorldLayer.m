@@ -1,8 +1,8 @@
 
 #import "HelloWorldLayer.h"
 
-#define CAMERA_OFFSET_X 100
-#define CAMERA_OFFSET_Y 100
+#define CAMERA_POS_X 100
+#define CAMERA_POS_Y 100
 
 @implementation HelloWorldLayer
 
@@ -25,8 +25,9 @@
 		player.pos_y = 120;
 		player.vy = 0;
 		player.vx = 0;
-		//player.position = ccp(250,250);
-		player.position = ccp(CAMERA_OFFSET_X,CAMERA_OFFSET_X);
+		player.position = ccp(CAMERA_POS_X,CAMERA_POS_X);
+		CAMERA_OFFSET_X = player.pos_x - CAMERA_POS_X;
+		CAMERA_OFFSET_Y = player.pos_y - CAMERA_POS_Y;
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
 	}
@@ -66,10 +67,8 @@
 		player.pos_y+=player.vy; //move before incrementing velocity OR ELSE
 		player.vy-=0.5;
 	}
-	
 	player.pos_x++;
-	
-	//player.position = ccp(player.pos_x,player.pos_y);
+
 	for (Island* i in islands) {
 		i.position = ccp(i.startX-player.pos_x+CAMERA_OFFSET_X,i.startY-player.pos_y+CAMERA_OFFSET_Y);
 	}

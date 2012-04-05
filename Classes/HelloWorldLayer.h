@@ -19,6 +19,7 @@
 	Player *player;
 	
 	float scroll_pos_x, scroll_pos_y;
+	float CAMERA_OFFSET_X, CAMERA_OFFSET_Y;
 }
 
 +(CCScene *) scene;
