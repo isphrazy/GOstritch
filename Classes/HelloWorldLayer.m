@@ -44,8 +44,10 @@
 	float post_y = player.pos_y+player.vy;
 	BOOL is_contact = NO;
 	
+	float temp;
 	for (Island* i in islands) {
 		float h = [i get_height:player.pos_x];
+		temp = h;
 		if (h != -1 && h <= pre_y && h >= post_y) {
 			is_contact = YES;
 			post_y = h;
@@ -57,20 +59,14 @@
 		player.pos_y=post_y;
 		player.vy = 0;
 	} else {
-		player.vy-=2.3123;
 		player.pos_y+=player.vy;
-		if (pre_y < 120 && post_y > 80) {
-			NSLog(@"pre:%f post%f",pre_y, post_y);
+		player.vy-=10;
+		if (pre_y < 251 && pre_y > 80) {
+			NSLog(@"pre:%f post%f col:%f",pre_y,post_y,temp);
 		}
 	}
-	player.pos_x+=player.vx;
 	
-	player.position = ccp(player.pos_x,player.pos_y);
-	
-	
-	for (Island* i in islands) {
-
-	}	
+	player.position = ccp(player.pos_x,player.pos_y);	
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent { //ccTouchesBeganWithEvent

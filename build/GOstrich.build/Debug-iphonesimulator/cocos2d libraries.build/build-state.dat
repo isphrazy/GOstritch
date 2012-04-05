@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t355305370.241688
+t355306502.135796
 cCheck dependencies
 cCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabel.o" /Users/studentuser/Desktop/GOstritch/libs/FontLabel/FontLabel.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabelStringDrawing.o" /Users/studentuser/Desktop/GOstritch/libs/FontLabel/FontLabelStringDrawing.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -4694,7 +4694,7 @@ i"cocoslive.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies355305370#355305370#0(0"0(0#1#0"8611103136#0"0#
+lSLF07#2@18"Check dependencies355306502#355306502#0(0"0(0#1#0"8620726624#0"0#
 
 CCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/CCAction.o" /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCAction.m normal i386 objective-c com.apple.compilers.llvmgcc42
 r0
