@@ -202,6 +202,86 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>499322B2152DA64600E2B320</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>GameEngineLayer.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>499322B3152DA64600E2B320</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>GameEngineLayer.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>499322CD152DA69A00E2B320</string>
+						<key>history</key>
+						<array>
+							<string>499322AA152DA64300E2B320</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1278, 623}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>1602 -344 1278 664 1280 -400 1600 1200 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>499322B5152DA64600E2B320</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>GOstrichAppDelegate.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>499322B6152DA64600E2B320</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>GOstrichAppDelegate.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>499322CE152DA69A00E2B320</string>
+						<key>history</key>
+						<array>
+							<string>499322A1152DA60000E2B320</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1562, 659}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>1318 74 1562 700 1280 -400 1600 1200 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>49931E49152D6FDE00E2B320</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>Player.m</string>
@@ -216,7 +296,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>499321E8152D9C0D00E2B320</string>
+						<string>499322CF152DA69A00E2B320</string>
 						<key>history</key>
 						<array>
 							<string>49931E3D152D6FD600E2B320</string>
@@ -362,7 +442,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HelloWorldLayer.m</string>
+								<string>GameEngineLayer.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -370,11 +450,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HelloWorldLayer.m</string>
+										<string>GameEngineLayer.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>499321E7152D9C0D00E2B320</string>
+										<string>499322CC152DA69A00E2B320</string>
 										<key>history</key>
 										<array>
 											<string>4926F78F152ABF0100A1EFDE</string>
@@ -396,18 +476,18 @@
 											<string>49931E72152D715000E2B320</string>
 											<string>49931E73152D715000E2B320</string>
 											<string>49931EC2152D75F600E2B320</string>
-											<string>49931F16152D779200E2B320</string>
 											<string>49931F17152D779200E2B320</string>
 											<string>49932054152D830200E2B320</string>
 											<string>4993205B152D834A00E2B320</string>
 											<string>49932084152D842D00E2B320</string>
 											<string>499320B6152D86AA00E2B320</string>
 											<string>499320B7152D86AA00E2B320</string>
-											<string>4993218E152D96B800E2B320</string>
 											<string>499321B0152D98CC00E2B320</string>
 											<string>499321B1152D98CC00E2B320</string>
-											<string>499321C7152D9A5D00E2B320</string>
-											<string>499321C8152D9A5D00E2B320</string>
+											<string>499322AD152DA64600E2B320</string>
+											<string>499322AE152DA64600E2B320</string>
+											<string>499322AF152DA64600E2B320</string>
+											<string>499322B0152DA64600E2B320</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -606,9 +686,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>49931E49152D6FDE00E2B320</string>
 		<string>4926F75B152AB39000A1EFDE</string>
+		<string>49931E49152D6FDE00E2B320</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>499322B5152DA64600E2B320</string>
+		<string>499322B2152DA64600E2B320</string>
 		<string>/Users/studentuser/Desktop/GOstritch/GOstrich.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -633,7 +715,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Line_Island.m</string>
+								<string>GOstrichAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -704,7 +786,7 @@
 			<key>WindowToolGUID</key>
 			<string>4926F75B152AB39000A1EFDE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

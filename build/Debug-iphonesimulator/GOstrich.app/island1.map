@@ -1,4 +1,5 @@
 [
-{"startX":"0","startY":"50","endX":"500","endY":"50"},
-{"startX":"200","startY":"120","endX":"1000","endY":"120"}
+{"startX":"0","startY":"0","endX":"500","endY":"0"},
+{"startX":"250","startY":"60","endX":"700","endY":"60"},
+{"startX":"450","startY":"100","endX":"1000","endY":"110"}
 ]
