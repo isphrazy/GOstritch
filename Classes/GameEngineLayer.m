@@ -79,8 +79,26 @@
 		player.vy = 0;
 	} else {
 		pos_y+=player.vy; //move before incrementing velocity OR ELSE
-		pos_x+=player.vx;
 		player.vy-=0.5;
+		
+		float pre_x = pos_x;
+		float post_x = pos_x+player.vx;
+		BOOL has_hit_x = NO;
+		for (Island* i in islands) {
+			CGPoint intersection = [GameEngineLayer line_seg_intersection_a1:ccp(pre_x,pos_y) a2:ccp(post_x,pos_y) b1:ccp(i.startX,i.startY) b2:ccp(i.endX,i.endY)];
+			if (intersection.x != -1 && intersection.y != -1) {
+				pos_x = intersection.x;
+				pos_y = [i get_height:intersection.x];
+				has_hit_x = YES;
+				break;
+			}
+		}
+		
+		if (has_hit_x == NO) {
+			pos_x = post_x;
+		}
+		//TODO--FIX THIS  
+		//pos_x+=player.vx;
 	}
 	player.position=ccp(pos_x,pos_y);
 	
@@ -139,6 +157,54 @@
 		
 	}
 	return n_islands;
+}
+
++(CGPoint)line_seg_intersection_a1:(CGPoint)a1 a2:(CGPoint)a2 b1:(CGPoint)b1 b2:(CGPoint)b2 {
+	double Ax = a1.x; double Ay = a1.y;
+	double Bx = a2.x; double By = a2.y;
+	double Cx = b1.x; double Cy = b1.y;
+	double Dx = b2.x; double Dy = b2.y;
+	double X; double Y;
+	double  distAB, theCos, theSin, newX, ABpos ;
 	
+	//  Fail if either line segment is zero-length.
+	if (Ax==Bx && Ay==By || Cx==Dx && Cy==Dy) return ccp(-1,-1);
+	
+	//  Fail if the segments share an end-point.
+	if (Ax==Cx && Ay==Cy || Bx==Cx && By==Cy
+		||  Ax==Dx && Ay==Dy || Bx==Dx && By==Dy) {
+		return ccp(-1,-1); }
+	
+	//  (1) Translate the system so that point A is on the origin.
+	Bx-=Ax; By-=Ay;
+	Cx-=Ax; Cy-=Ay;
+	Dx-=Ax; Dy-=Ay;
+	
+	//  Discover the length of segment A-B.
+	distAB=sqrt(Bx*Bx+By*By);
+	
+	//  (2) Rotate the system so that point B is on the positive X axis.
+	theCos=Bx/distAB;
+	theSin=By/distAB;
+	newX=Cx*theCos+Cy*theSin;
+	Cy  =Cy*theCos-Cx*theSin; Cx=newX;
+	newX=Dx*theCos+Dy*theSin;
+	Dy  =Dy*theCos-Dx*theSin; Dx=newX;
+	
+	//  Fail if segment C-D doesn't cross line A-B.
+	if (Cy<0. && Dy<0. || Cy>=0. && Dy>=0.) return ccp(-1,-1);
+	
+	//  (3) Discover the position of the intersection point along line A-B.
+	ABpos=Dx+(Cx-Dx)*Dy/(Dy-Cy);
+	
+	//  Fail if segment C-D crosses line A-B outside of segment A-B.
+	if (ABpos<0. || ABpos>distAB) return ccp(-1,-1);
+	
+	//  (4) Apply the discovered position to line A-B in the original coordinate system.
+	X=Ax+ABpos*theCos;
+	Y=Ay+ABpos*theSin;
+	
+	//  Success.
+	return ccp(X,Y);; 
 }
 @end
