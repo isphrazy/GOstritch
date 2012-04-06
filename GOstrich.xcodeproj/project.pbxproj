@@ -12,6 +12,7 @@
 		4926F83D152B867C00A1EFDE /* Island.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926F83C152B867C00A1EFDE /* Island.m */; };
 		4926F842152B868A00A1EFDE /* Assets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926F841152B868A00A1EFDE /* Assets.m */; };
 		4926F8D8152BCBFF00A1EFDE /* island1.map in Resources */ = {isa = PBXBuildFile; fileRef = 4926F8D7152BCBFF00A1EFDE /* island1.map */; };
+		494A60D7152EC5CF00DF418A /* misc_notes in Resources */ = {isa = PBXBuildFile; fileRef = 494A60D6152EC5CF00DF418A /* misc_notes */; };
 		494E25A2152C236C004EBE74 /* Line_Island.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E25A1152C236C004EBE74 /* Line_Island.m */; };
 		494E2783152C3F07004EBE74 /* bg_layer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E277F152C3F07004EBE74 /* bg_layer1.png */; };
 		494E2784152C3F07004EBE74 /* bg_layer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E2780152C3F07004EBE74 /* bg_layer2.png */; };
@@ -272,6 +273,7 @@
 		4926F840152B868A00A1EFDE /* Assets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
 		4926F841152B868A00A1EFDE /* Assets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assets.m; sourceTree = "<group>"; };
 		4926F8D7152BCBFF00A1EFDE /* island1.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = island1.map; sourceTree = "<group>"; };
+		494A60D6152EC5CF00DF418A /* misc_notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = misc_notes; sourceTree = "<group>"; };
 		494E25A0152C236C004EBE74 /* Line_Island.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line_Island.h; sourceTree = "<group>"; };
 		494E25A1152C236C004EBE74 /* Line_Island.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line_Island.m; sourceTree = "<group>"; };
 		494E277F152C3F07004EBE74 /* bg_layer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_layer1.png; sourceTree = "<group>"; };
@@ -567,6 +569,7 @@
 				50F414EB1069373D002A0D5E /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				494A60D6152EC5CF00DF418A /* misc_notes */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1194,6 +1197,7 @@
 				494E2786152C3F07004EBE74 /* fg_test.png in Resources */,
 				494E27A2152C403D004EBE74 /* bird1_hr.png in Resources */,
 				494E27A3152C403D004EBE74 /* bird1_sprite.png in Resources */,
+				494A60D7152EC5CF00DF418A /* misc_notes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
