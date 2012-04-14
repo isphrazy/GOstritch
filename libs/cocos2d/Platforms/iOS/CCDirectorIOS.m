@@ -209,8 +209,14 @@ CGFloat	__ccContentScaleFactor = 1;
 			glViewport(0, 0, size.width, size.height);
 			glMatrixMode(GL_PROJECTION);
 			glLoadIdentity();
-//			gluPerspective(60, (GLfloat)size.width/size.height, zeye-size.height/2, zeye+size.height/2 );
-			gluPerspective(60, (GLfloat)size.width/size.height, 0.5f, 1500);
+			// accommodate iPad retina while keep backward compatibility
+            if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad &&
+                [[UIScreen mainScreen] scale] > 1.0 )
+            {
+                gluPerspective(60, (GLfloat)size.width/size.height, zeye-size.height/2, zeye+size.height/2 );
+            } else {
+                gluPerspective(60, (GLfloat)size.width/size.height, 0.5f, 1500);
+            }
 
 			glMatrixMode(GL_MODELVIEW);	
 			glLoadIdentity();
@@ -285,7 +291,10 @@ CGFloat	__ccContentScaleFactor = 1;
 		isContentScaleSupported_ = YES;
 	}
 	else
-		CCLOG(@"cocos2d: 'setContentScaleFactor:' is not supported on this device");
+	{
+		CCLOG(@"cocos2d: WARNING: calling setContentScaleFactor on iOS < 4. Using fallback mechanism");		
+		isContentScaleSupported_ = NO;
+	}
 }
 
 -(BOOL) enableRetinaDisplay:(BOOL)enabled

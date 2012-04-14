@@ -49,21 +49,28 @@
  *		CCLOGERROR() will be enabled
  *		CCLOGINFO()	will be enabled 
  */
+
+
+#define __CCLOGWITHFUNCTION(s, ...) \
+NSLog(@"%s : %@",__FUNCTION__,[NSString stringWithFormat:(s), ##__VA_ARGS__])
+
+
 #if !defined(COCOS2D_DEBUG) || COCOS2D_DEBUG == 0
 #define CCLOG(...) do {} while (0)
 #define CCLOGINFO(...) do {} while (0)
 #define CCLOGERROR(...) do {} while (0)
 
 #elif COCOS2D_DEBUG == 1
-#define CCLOG(...) NSLog(__VA_ARGS__)
-#define CCLOGERROR(...) NSLog(__VA_ARGS__)
+#define CCLOG(...) __CCLOGWITHFUNCTION(__VA_ARGS__)
+#define CCLOGERROR(...) __CCLOGWITHFUNCTION(__VA_ARGS__)
 #define CCLOGINFO(...) do {} while (0)
 
 #elif COCOS2D_DEBUG > 1
-#define CCLOG(...) NSLog(__VA_ARGS__)
-#define CCLOGERROR(...) NSLog(__VA_ARGS__)
-#define CCLOGINFO(...) NSLog(__VA_ARGS__)
+#define CCLOG(...) __CCLOGWITHFUNCTION(__VA_ARGS__)
+#define CCLOGERROR(...) __CCLOGWITHFUNCTION(__VA_ARGS__)
+#define CCLOGINFO(...) __CCLOGWITHFUNCTION(__VA_ARGS__)
 #endif // COCOS2D_DEBUG
+
 
 /** @def CC_SWAP
 simple macro that swaps 2 variables
@@ -94,6 +101,7 @@ simple macro that swaps 2 variables
  */
 #define CC_RADIANS_TO_DEGREES(__ANGLE__) ((__ANGLE__) * 57.29577951f) // PI * 180
 
+#define kCCRepeatForever UINT_MAX -1
 /** @def CC_BLEND_SRC
 default gl blend src function. Compatible with premultiplied alpha images.
 */
@@ -212,7 +220,9 @@ do {															\
 } while(0)
 
 
-#if CC_IS_RETINA_DISPLAY_SUPPORTED
+
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED
 
 /****************************/
 /** RETINA DISPLAY ENABLED **/
@@ -240,7 +250,7 @@ do {															\
 	CGRectMake( (__points__).origin.x * CC_CONTENT_SCALE_FACTOR(), (__points__).origin.y * CC_CONTENT_SCALE_FACTOR(),	\
 			(__points__).size.width * CC_CONTENT_SCALE_FACTOR(), (__points__).size.height * CC_CONTENT_SCALE_FACTOR() )
 
-#else // retina disabled
+#elif defined(__MAC_OS_X_VERSION_MAX_ALLOWED)
 
 /*****************************/
 /** RETINA DISPLAY DISABLED **/
@@ -250,4 +260,25 @@ do {															\
 #define CC_RECT_PIXELS_TO_POINTS(__pixels__) __pixels__
 #define CC_RECT_POINTS_TO_PIXELS(__points__) __points__
 
-#endif // CC_IS_RETINA_DISPLAY_SUPPORTED
+#endif // __MAC_OS_X_VERSION_MAX_ALLOWED
+
+/*****************/
+/** ARC Macros  **/
+/*****************/
+#if defined(__has_feature) && __has_feature(objc_arc)
+// ARC (used for inline functions)
+#define CC_ARC_RETAIN(value)	value
+#define CC_ARC_RELEASE(value)	value = 0
+#define CC_ARC_UNSAFE_RETAINED	__unsafe_unretained
+
+#else
+// No ARC
+#define CC_ARC_RETAIN(value)	[value retain]
+#define CC_ARC_RELEASE(value)	[value release]
+#define CC_ARC_UNSAFE_RETAINED
+#endif
+
+/*******************/
+/** Notifications **/
+/*******************/
+#define CCAnimationFrameDisplayedNotification @"CCAnimationFrameDisplayedNotification"
