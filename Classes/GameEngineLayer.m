@@ -5,9 +5,23 @@
 
 @implementation GameEngineLayer
 
+static float cur_pos_x = 0;
+static float cur_pos_y = 0; 
+
++(float) get_cur_pos_x { //TODO--CLEAN ME UP, HACKY
+	return cur_pos_x;
+}
+
++(float) get_cur_pos_y {
+	return cur_pos_y;
+}
+
+
 +(CCScene *) scene{
 	[[CCDirector sharedDirector] setDisplayFPS:NO];
 	CCScene *scene = [CCScene node];
+	BGLayer *bglayer = [BGLayer node];
+	[scene addChild:bglayer];
 	GameEngineLayer *layer = [GameEngineLayer node];
 	[scene addChild: layer];
 	return scene;
@@ -16,7 +30,6 @@
 
 -(id) init{
 	if( (self=[super init])) {
-		[self loadBg];
 		[self loadMap];
 		player = [Player init];
 		[self addChild:player];
@@ -25,31 +38,11 @@
 		player.vx = 5; //TODO -- CHANGE SPEEDS BASED ON GAME EVENTS
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
-		[self runAction:[CCFollow actionWithTarget:(player) worldBoundary:CGRectMake(0,0,3000,3000)]];//TODO -- VARIABLE WORLD BOUNDS
+		[self runAction:[CCFollow actionWithTarget:(player) worldBoundary:CGRectMake(0,0,3000,3000)]];
+		//TODO -- VARIABLE WORLD BOUNDS
+		//TODO -- FOLLOW TO LEFT
 	}
 	return self;
-}
-
--(void) loadBg {
-	NSMutableArray *a = [[NSMutableArray alloc] init];
-	int start = 1;
-	int end = 1;
-	
-	for (int i = start; i >= end; i--) {
-		
-		NSString *res_loc = [[NSString alloc] initWithFormat:@"bg_tex.png"];
-		CCSprite *bg_obj = [CCSprite spriteWithFile:res_loc rect:CGRectMake(0, 0, 20000, 20000)];
-		bg_obj.position = ccp(0,0);
-		bg_obj.anchorPoint = ccp(0,0);
-		
-		ccTexParams params = {GL_LINEAR,GL_LINEAR,GL_REPEAT,GL_REPEAT};
-		[bg_obj.texture setTexParameters:&params];
-		
-		[a addObject:bg_obj];
-		[self addChild:bg_obj];
-		[res_loc release];
-	}
-	bg_elements = a;
 }
 
 //read a map from map folder, load island and assets
@@ -150,6 +143,9 @@
 		//TODO--ACTUAL GAME OVER STATES
 		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
 	}
+	
+	cur_pos_x = pos_x;
+	cur_pos_y = pos_y;
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {

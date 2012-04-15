@@ -103,12 +103,17 @@
 	}
 }
 
+//textureCoordinates
+//areaTrianglePoints
+
 -(void) draw {
 	// we have a pointer to vertex points so enable client state
 	glBindTexture(GL_TEXTURE_2D, self.texture.name);
 	
+	//GL_DECAL fragment color with the texture sample.
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL);
 	
+	//coord per vertex, type, stride, pointer to array
 	glVertexPointer(2, GL_FLOAT, 0, areaTrianglePoints);
 	glTexCoordPointer(2, GL_FLOAT, 0, textureCoordinates);
 	

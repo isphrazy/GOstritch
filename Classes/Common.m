@@ -1,10 +1,3 @@
-//
-//  Common.m
-//  GOstrich
-//
-//  Created by Student User on 4/14/12.
-//  Copyright 2012 University of Washington. All rights reserved.
-//
 
 #import "Common.h"
 

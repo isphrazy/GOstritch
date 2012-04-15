@@ -1,0 +1,31 @@
+In file included from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCActionManager.h:32,
+                 from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/cocos2d.h:52,
+                 from /Users/studentuser/Desktop/GOstritch/Classes/Island.h:10,
+                 from /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.h:9,
+                 from /Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:2:
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'ccArrayMakeObjectsPerformSelector':
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:278: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:283: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'ccArrayMakeObjectsPerformSelectorWithObject':
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:289: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:295: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'ccArrayMakeObjectPerformSelectorWithArrayObjects':
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:301: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:307: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'mergesortL':
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:508: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:514: warning: ignoring #pragma clang diagnostic
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '+[Line_Island init_pt1:pt2:]':
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:13: warning: 'Line_Island' may not respond to '-set_pt1:pt2:'
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:13: warning: (Messages without a matching method signature
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:13: warning: will be assumed to return 'id' and accept
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:13: warning: '...' as arguments.)
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:14: warning: 'Line_Island' may not respond to '-calc_init'
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:26: warning: 'Line_Island' may not respond to '-init_tex'
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:27: warning: 'Line_Island' may not respond to '-init_top'
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '-[Line_Island draw]':
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:123: error: 'rot' undeclared (first use in this function)
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:123: error: (Each undeclared identifier is reported only once
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:123: error: for each function it appears in.)
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m: In function '-[Line_Island calc_init]':
+/Users/studentuser/Desktop/GOstritch/Classes/Line_Island.m:158: error: 'rot' undeclared (first use in this function)

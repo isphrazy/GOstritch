@@ -1,7 +1,7 @@
 In file included from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCActionManager.h:32,
                  from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/cocos2d.h:52,
                  from /Users/studentuser/Desktop/GOstritch/Classes/Common.h:2,
-                 from /Users/studentuser/Desktop/GOstritch/Classes/Common.m:9:
+                 from /Users/studentuser/Desktop/GOstritch/Classes/Common.m:2:
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'ccArrayMakeObjectsPerformSelector':
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:278: warning: ignoring #pragma clang diagnostic
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:283: warning: ignoring #pragma clang diagnostic

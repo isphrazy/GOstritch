@@ -1,7 +1,7 @@
 In file included from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCActionManager.h:32,
                  from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/cocos2d.h:52,
-                 from /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.h:10,
-                 from /Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m:1:
+                 from /Users/studentuser/Desktop/GOstritch/libs/PRKit/PRFilledPolygon.h:33,
+                 from /Users/studentuser/Desktop/GOstritch/libs/PRKit/PRFilledPolygon.m:32:
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'ccArrayMakeObjectsPerformSelector':
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:278: warning: ignoring #pragma clang diagnostic
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:283: warning: ignoring #pragma clang diagnostic
@@ -14,6 +14,3 @@ In file included from /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCAction
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h: In function 'mergesortL':
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:508: warning: ignoring #pragma clang diagnostic
 /Users/studentuser/Desktop/GOstritch/libs/cocos2d/Support/ccCArray.h:514: warning: ignoring #pragma clang diagnostic
-/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m: At top level:
-/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m:202: warning: incomplete implementation of class 'GameEngineLayer'
-/Users/studentuser/Desktop/GOstritch/Classes/GameEngineLayer.m:202: warning: method definition for '+line_seg_intersection_a1:a2:b1:b2:' not found

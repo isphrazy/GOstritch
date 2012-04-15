@@ -13,13 +13,16 @@
 #import "Island.h"
 #import "Player.h"
 #import "Common.h"
+#import "BGLayer.h"
 
 @interface GameEngineLayer : CCLayer {
 	NSMutableArray *islands;
-	NSMutableArray *bg_elements;
 	Player *player;
 	BOOL is_touch;
 }
+
++(float) get_cur_pos_x;
++(float) get_cur_pos_y;
 
 +(CCScene *) scene;
 +(NSMutableArray*) loadIslands;
