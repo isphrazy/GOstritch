@@ -265,6 +265,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>506EDAA3102F461B00A389B3</string>
+								<string>4997E83E153A20A6000E8E34</string>
 								<string>2D500B1D0D5A766B00DBA0E3</string>
 								<string>494E2594152C22DB004EBE74</string>
 								<string>494E2593152C22BF004EBE74</string>
@@ -272,19 +273,21 @@
 								<string>50F414EB1069373D002A0D5E</string>
 								<string>494E279E152C403D004EBE74</string>
 								<string>494E279F152C403D004EBE74</string>
+								<string>494E277E152C3F07004EBE74</string>
+								<string>4926F8D6152BCBFF00A1EFDE</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>14</integer>
-									<integer>10</integer>
+									<integer>52</integer>
+									<integer>51</integer>
+									<integer>38</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 76}, {226, 583}}</string>
+							<string>{{0, 334}, {226, 583}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -303,7 +306,7 @@
 							<real>226</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>101 131 1280 642 0 0 1280 778 </string>
+						<string>78 136 1280 642 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -321,7 +324,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Player.m</string>
+								<string>island1.map</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Player.m</string>
+										<string>island1.map</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4997E970153A4705000E8E34</string>
+										<string>4997E9FC153A5947000E8E34</string>
 										<key>history</key>
 										<array>
 											<string>4926F78F152ABF0100A1EFDE</string>
@@ -351,35 +354,41 @@
 											<string>49931E72152D715000E2B320</string>
 											<string>49931E73152D715000E2B320</string>
 											<string>49932084152D842D00E2B320</string>
-											<string>494A6044152EB8A100DF418A</string>
-											<string>494A60C1152EC51700DF418A</string>
-											<string>494A60DC152EC6B900DF418A</string>
-											<string>494A60DD152EC6B900DF418A</string>
-											<string>494A60DE152EC6B900DF418A</string>
-											<string>494A60DF152EC6B900DF418A</string>
 											<string>494A60E1152EC6B900DF418A</string>
 											<string>492A928B153974D500F90231</string>
 											<string>492A928C153974D500F90231</string>
 											<string>492A928D153974D500F90231</string>
 											<string>492A929C1539755900F90231</string>
 											<string>492A92A61539F32B00F90231</string>
-											<string>4997E87E153A2EF9000E8E34</string>
-											<string>4997E87F153A2EF9000E8E34</string>
-											<string>4997E881153A2EF9000E8E34</string>
-											<string>4997E882153A2EF9000E8E34</string>
 											<string>4997E883153A2EF9000E8E34</string>
 											<string>4997E884153A2EF9000E8E34</string>
 											<string>4997E886153A2EF9000E8E34</string>
-											<string>4997E888153A2EF9000E8E34</string>
-											<string>4997E889153A2EF9000E8E34</string>
-											<string>4997E88A153A2EF9000E8E34</string>
 											<string>4997E92A153A415F000E8E34</string>
-											<string>4997E94C153A44BF000E8E34</string>
-											<string>4997E94F153A44BF000E8E34</string>
 											<string>4997E959153A45D7000E8E34</string>
-											<string>4997E95A153A45D7000E8E34</string>
 											<string>4997E95F153A4607000E8E34</string>
-											<string>4997E960153A4607000E8E34</string>
+											<string>4997E9B0153A5506000E8E34</string>
+											<string>4997E9B1153A5506000E8E34</string>
+											<string>4997E9B2153A5506000E8E34</string>
+											<string>4997E9B3153A5506000E8E34</string>
+											<string>4997E9B4153A5506000E8E34</string>
+											<string>4997E9B5153A5506000E8E34</string>
+											<string>4997E9B8153A5506000E8E34</string>
+											<string>4997E9B9153A5506000E8E34</string>
+											<string>4997E9BA153A5506000E8E34</string>
+											<string>4997E9BB153A5506000E8E34</string>
+											<string>4997E9BC153A5506000E8E34</string>
+											<string>4997E9BD153A5506000E8E34</string>
+											<string>4997E9BE153A5506000E8E34</string>
+											<string>4997E9BF153A5506000E8E34</string>
+											<string>4997E9C0153A5506000E8E34</string>
+											<string>4997E9C1153A5506000E8E34</string>
+											<string>4997E9C2153A5506000E8E34</string>
+											<string>4997E9C3153A5506000E8E34</string>
+											<string>4997E9CA153A557E000E8E34</string>
+											<string>4997E9CF153A568E000E8E34</string>
+											<string>4997E9D4153A570F000E8E34</string>
+											<string>4997E9FA153A5947000E8E34</string>
+											<string>4997E9FB153A5947000E8E34</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -393,7 +402,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1032, 596}}</string>
 								<key>RubberWindowFrame</key>
-								<string>101 131 1280 642 0 0 1280 778 </string>
+								<string>78 136 1280 642 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -413,7 +422,7 @@
 								<key>Frame</key>
 								<string>{{0, 601}, {1032, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>101 131 1280 642 0 0 1280 778 </string>
+								<string>78 136 1280 642 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -583,7 +592,7 @@
 		<string>/Users/studentuser/Desktop/GOstritch/GOstrich.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>101 131 1280 642 0 0 1280 778 </string>
+	<string>78 136 1280 642 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -16,7 +16,7 @@
 
 @interface GameEngineLayer : CCLayer {
 	NSMutableArray *islands;
-	NSMutableArray *assets;
+	NSMutableArray *bg_elements;
 	Player *player;
 	BOOL is_touch;
 }

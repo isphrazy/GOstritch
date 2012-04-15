@@ -14,18 +14,9 @@
 	
 	new_island.position = ccp(new_island.startX,new_island.startY);
 	
-	CCTexture2D *texture = [[CCTextureCache sharedTextureCache] addImage:@"pattern1.png"];
-	/*
-	 NSMutableArray *polygonPoints = [NSMutableArray arrayWithCapacity:10];
-	 [polygonPoints addObject:[NSValue valueWithCGPoint:ccp(100,100)]];
-	 */
+	CCTexture2D *texture = [[CCTextureCache sharedTextureCache] addImage:@"fg_tex.png"];
 	NSMutableArray *pts = [NSMutableArray array];
 	[pts addObject:[NSValue valueWithCGPoint:ccp(0,0)]];
-	/*if (new_island.slope > 0) {
-		[pts addObject:[NSValue valueWithCGPoint:ccp(end.x-start.x,0)]];
-	} else {
-		[pts addObject:[NSValue valueWithCGPoint:ccp(0,end.y-start.y)]];
-	}*/
 	[pts addObject:[NSValue valueWithCGPoint:ccp(end.x-start.x,end.y-start.y)]];
 	[pts addObject:[NSValue valueWithCGPoint:ccp(end.x-start.x,end.y-start.y-50)]];
 	[pts addObject:[NSValue valueWithCGPoint:ccp(0,0-50)]];
