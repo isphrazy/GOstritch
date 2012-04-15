@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t356087206.287580
+t356143040.852283
 cCheck dependencies
 cCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabel.o" /Users/studentuser/Desktop/GOstritch/libs/FontLabel/FontLabel.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/FontLabelStringDrawing.o" /Users/studentuser/Desktop/GOstritch/libs/FontLabel/FontLabelStringDrawing.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -670,8 +670,8 @@ t1334394074
 s5284
 
 N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CDAudioManager.h
-c000000004F893A82000000000000251D
-t1334393474
+c000000004F893C65000000000000251D
+t1334393957
 s9501
 i"CocosDenshion.h"
 i<AVFoundation/AVFoundation.h>
@@ -681,15 +681,16 @@ N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CDAudioManager.m
 c000000004F893C650000000000006865
 t1334393957
 s26725
+i"CDAudioManager.h"
 
 N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CDConfig.h
-c000000004F893A820000000000000A9A
-t1334393474
+c000000004F893C650000000000000A9A
+t1334393957
 s2714
 
 N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CDOpenALSupport.h
-c000000004F893A820000000000000CF9
-t1334393474
+c000000004F893C650000000000000CF9
+t1334393957
 s3321
 i<OpenAL/al.h>
 i<OpenAL/alc.h>
@@ -699,10 +700,14 @@ N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CDOpenALSupport.m
 c000000004F893C650000000000002644
 t1334393957
 s9796
+i"CDOpenALSupport.h"
+i"CocosDenshion.h"
+i<AudioToolbox/AudioToolbox.h>
+i<AudioToolbox/ExtendedAudioFile.h>
 
 N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CocosDenshion.h
-c000000004F893A820000000000003924
-t1334393474
+c000000004F893C650000000000003924
+t1334393957
 s14628
 i<OpenAL/al.h>
 i<OpenAL/alc.h>
@@ -715,10 +720,11 @@ N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/CocosDenshion.m
 c000000004F893C65000000000000B37C
 t1334393957
 s45948
+i"CocosDenshion.h"
 
 N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/SimpleAudioEngine.h
-c000000004F893A820000000000000EE0
-t1334393474
+c000000004F893C650000000000000EE0
+t1334393957
 s3808
 i"CDAudioManager.h"
 
@@ -726,6 +732,7 @@ N/Users/studentuser/Desktop/GOstritch/libs/CocosDenshion/SimpleAudioEngine.m
 c000000004F893C65000000000000139B
 t1334393957
 s5019
+i"SimpleAudioEngine.h"
 
 N/Users/studentuser/Desktop/GOstritch/libs/FontLabel/FontLabel.h
 c000000004F893A8200000000000006FD
@@ -4714,7 +4721,7 @@ i"cocoslive.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies356087204#356087204#0(0"0(0#1#0"8615870336#0"0#
+lSLF07#2@18"Check dependencies356143040#356143040#0(0"0(0#1#0"8616715712#0"0#
 
 CCompileC "build/GOstrich.build/Debug-iphonesimulator/cocos2d libraries.build/Objects-normal/i386/CCAction.o" /Users/studentuser/Desktop/GOstritch/libs/cocos2d/CCAction.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s356086861.432159

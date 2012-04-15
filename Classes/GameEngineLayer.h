@@ -12,12 +12,12 @@
 #import "Line_Island.h"
 #import "Island.h"
 #import "Player.h"
+#import "Common.h"
 
 @interface GameEngineLayer : CCLayer {
 	NSMutableArray *islands;
 	NSMutableArray *assets;
 	Player *player;
-	
 	BOOL is_touch;
 }
 
