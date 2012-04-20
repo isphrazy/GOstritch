@@ -89,8 +89,8 @@
 }
 
 -(void) draw {
-	if (endX < [GameEngineLayer get_cur_pos_x]-250 ||
-		startY > [GameEngineLayer get_cur_pos_y]+250) {
+	if (endX < [GameEngineLayer get_cur_pos_x]-400 ||
+		startY > [GameEngineLayer get_cur_pos_y]+400) {
 		return;
 	} 
 	[super draw];

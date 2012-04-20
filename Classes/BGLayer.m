@@ -22,7 +22,6 @@
 	int end = 1;
 	
 	for (int i = start; i >= end; i--) {
-		
 		NSString *res_loc = [[NSString alloc] initWithFormat:@"level1_bg%d",i];
 		CCSprite *bg_obj = [CCSprite spriteWithTexture:[Resource get_tex:res_loc]];
         bg_obj.position = ccp(0,0);

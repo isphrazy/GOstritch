@@ -19,7 +19,7 @@ static NSMutableDictionary* textures = nil;
     
     ccTexParams texParams = { GL_NEAREST, GL_NEAREST, GL_REPEAT, GL_REPEAT };
     for(int i = 0; i < [temp count]-1; i+=2) {
-        NSLog(@"LOADING: %s->%s\n",[[temp objectAtIndex:i] UTF8String], [[temp objectAtIndex:(i+1)] UTF8String]);
+        NSLog(@"LOADING: %@->%@\n",[temp objectAtIndex:i], [temp objectAtIndex:(i+1)]);
         CCTexture2D* tex = [[CCTextureCache sharedTextureCache] addImage:[temp objectAtIndex:i]];
         [textures setObject:tex forKey:[temp objectAtIndex:(i+1)]];
         [tex setTexParameters: &texParams];
@@ -29,5 +29,14 @@ static NSMutableDictionary* textures = nil;
 +(CCTexture2D*)get_tex:(NSString*)key {
     return [textures objectForKey:key];
 }
+
++(void)dealloc_textures {
+    for (NSString* key in textures) {
+        [[CCTextureCache sharedTextureCache] removeTexture:[textures objectForKey:key]];
+    }
+    [textures dealloc];
+}
+
+
 
 @end

@@ -8,15 +8,6 @@
 static float cur_pos_x = 0;
 static float cur_pos_y = 0; 
 
-+(float) get_cur_pos_x { //TODO--CLEAN ME UP, HACKY
-	return cur_pos_x;
-}
-
-+(float) get_cur_pos_y {
-	return cur_pos_y;
-}
-
-
 +(CCScene *) scene{
     [Resource init_textures];
 	//[[CCDirector sharedDirector] setDisplayFPS:NO];
@@ -31,8 +22,6 @@ static float cur_pos_y = 0;
 
 -(id) init{
 	if( (self=[super init])) {
-        
-        NSLog(@"%@",[Resource get_tex:@"level1_island1_tex"]);
 		[self loadMap];
 		player = [Player init];
 		[self addChild:player];
@@ -48,11 +37,9 @@ static float cur_pos_y = 0;
 	return self;
 }
 
-//read a map from map folder, load island and assets
 -(void) loadMap{
 	islands = [GameEngineLayer loadIslands];
-	
-	for (Island* i in islands) { //TODO -- GAME MAP PROCESSING METHOD
+	for (Island* i in islands) {
 		[self addChild:i];
 	}
 }
@@ -162,17 +149,23 @@ static float cur_pos_y = 0;
 	is_touch = NO;
 }
 
-
-
-
 - (void) dealloc{
     for (Island* i in islands) {
         [i dealloc];
     }
-    [islands dealloc];
+    islands = nil;
     [player dealloc];
-	//TODO--DEALLOC DA GAYME
+	[Resource dealloc_textures];
+    [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFrames];
 	[super dealloc];
+}
+
++(float) get_cur_pos_x { //TODO--CLEAN ME UP, HACKY
+	return cur_pos_x;
+}
+
++(float) get_cur_pos_y {
+	return cur_pos_y;
 }
 
 //static method that loads map into array from file, process array afterwards

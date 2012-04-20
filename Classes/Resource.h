@@ -12,5 +12,6 @@
 
 +(void)init_textures;
 +(CCTexture2D*)get_tex:(NSString*)key;
++(void)dealloc_textures;
 
 @end
