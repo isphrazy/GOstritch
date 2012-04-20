@@ -10,9 +10,9 @@ static float cur_pos_y = 0;
 
 +(CCScene *) scene{
     [Resource init_textures];
-	//[[CCDirector sharedDirector] setDisplayFPS:NO];
+	[[CCDirector sharedDirector] setDisplayFPS:NO];
 	CCScene *scene = [CCScene node];
-	BGLayer *bglayer = [BGLayer node];
+	BGLayer *bglayer = [BGLayer node]; //TODO--UPDATE BG IMAGES AND BGSCROLLING TO PLAYER VX,VY
 	[scene addChild:bglayer];
 	GameEngineLayer *layer = [GameEngineLayer node];
 	[scene addChild: layer];
@@ -44,35 +44,44 @@ static float cur_pos_y = 0;
 	}
 }
 
--(void)sort_islands {
-	[islands sortUsingComparator:^(id a, id b) {
-		float first = [a get_height:player.position.x];
-		float second = [b get_height:player.position.x];
-		if (first < second) {
-			return NSOrderedDescending;
-		} else if (first > second) {
-			return NSOrderedAscending;
-		} else {
-			return NSOrderedSame;
-		}
-	}];
-}
-
 -(void)update:(ccTime)dt {
-	float pos_x = player.position.x; //note, change these variables then apply to player.position at end
+	float pos_x = player.position.x;
 	float pos_y = player.position.y;
 	
-	float tmp = FLT_MAX;//if islands out of order, sort
-	for (Island* i in islands) {
-		float h = [i get_height:pos_x];
-		if (h > tmp) {
-			[self sort_islands];
-			break;
-		}
-		tmp = h;
+    [self check_sort_islands_given:pos_x and:pos_y];
+	CGPoint pos_f = [self player_move_x:pos_x y:pos_y];
+	player.position=pos_f;
+    [self check_game_state];	
+    [self update_static_x:pos_x y:pos_y];
+}
+
+-(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {
+	is_touch = YES;
+}
+
+-(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
+}
+
+-(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
+	is_touch = NO;
+}
+
+-(void)check_game_state {
+	if (player.position.y < 0) {
+		//TODO--ACTUAL GAME OVER STATES
+		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
 	}
-	
-	float pre_y = pos_y;//ydir movement check, get y(pre +vy) and y(post +vy)
+}
+
+-(void)player_control_update:(BOOL)is_contact {
+    if (is_touch && is_contact) { //if player touch, jump
+        player.vy = 10;
+    }
+}
+
+//calculates and returns position of player in next update "step"
+-(CGPoint)player_move_x:(float)pos_x y:(float) pos_y {
+    float pre_y = pos_y;//ydir movement check, get y(pre +vy) and y(post +vy)
 	float post_y = pos_y+player.vy;
 	BOOL is_contact = NO;
 	Island *contact_island;
@@ -100,10 +109,6 @@ static float cur_pos_y = 0;
 		float ang = atan((contact_island.endY-contact_island.startY)/(contact_island.endX-contact_island.startX))*(180/M_PI);
 		player.rotation = -ang; //rotate 
 		player.vy = 0;
-		if (is_touch) { //if player touch, jump
-			//TODO -- MORE PLAYER CONTROLS
-			player.vy = 10;
-		}
 	} else {
 		pos_y+=player.vy; //move before incrementing velocity OR ELSE
 		player.vy-=0.5;
@@ -126,46 +131,9 @@ static float cur_pos_y = 0;
 		if (!has_hit_x) {//else if no conflict, full vx move
 			pos_x = post_x;
 		}
-	}
-	player.position=ccp(pos_x,pos_y);//apply movements to sprite
-	
-	if (player.position.y < 0) {
-		//TODO--ACTUAL GAME OVER STATES
-		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
-	}
-	
-	cur_pos_x = pos_x;
-	cur_pos_y = pos_y;
-}
-
--(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {
-	is_touch = YES;
-}
-
--(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
-}
-
--(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
-	is_touch = NO;
-}
-
-- (void) dealloc{
-    for (Island* i in islands) {
-        [i dealloc];
     }
-    islands = nil;
-    [player dealloc];
-	[Resource dealloc_textures];
-    [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFrames];
-	[super dealloc];
-}
-
-+(float) get_cur_pos_x { //TODO--CLEAN ME UP, HACKY
-	return cur_pos_x;
-}
-
-+(float) get_cur_pos_y {
-	return cur_pos_y;
+    [self player_control_update:is_contact];
+    return ccp(pos_x,pos_y);
 }
 
 //static method that loads map into array from file, process array afterwards
@@ -197,6 +165,57 @@ static float cur_pos_y = 0;
 		
 	}
 	return n_islands;
+}
+
+-(void)check_sort_islands_given:(float)pos_x and:(float)pos_y {
+	float tmp = FLT_MAX;//if islands out of order, sort
+	for (Island* i in islands) {
+		float h = [i get_height:pos_x];
+		if (h > tmp) {
+			[self sort_islands];
+			break;
+		}
+		tmp = h;
+	}
+}
+
+-(void)sort_islands {
+	[islands sortUsingComparator:^(id a, id b) {
+		float first = [a get_height:player.position.x];
+		float second = [b get_height:player.position.x];
+		if (first < second) {
+			return NSOrderedDescending;
+		} else if (first > second) {
+			return NSOrderedAscending;
+		} else {
+			return NSOrderedSame;
+		}
+	}];
+}
+
+-(void)update_static_x:(float)pos_x y:(float)pos_y {
+    cur_pos_x = pos_x;
+	cur_pos_y = pos_y;
+}
+
+//static player status getters
++(float) get_cur_pos_x {
+	return cur_pos_x;
+}
+
++(float) get_cur_pos_y {
+	return cur_pos_y;
+}
+
+- (void) dealloc{
+    for (Island* i in islands) {
+        [i dealloc];
+    }
+    islands = nil;
+    [player dealloc];
+	[Resource dealloc_textures];
+    [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFrames];
+	[super dealloc];
 }
 
 

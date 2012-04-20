@@ -27,7 +27,11 @@ static NSMutableDictionary* textures = nil;
 }
 
 +(CCTexture2D*)get_tex:(NSString*)key {
-    return [textures objectForKey:key];
+    CCTexture2D* ret = [textures objectForKey:key];
+    if (!ret) {
+        NSLog(@"Failed to get texture %@",key);
+    }
+    return ret;
 }
 
 +(void)dealloc_textures {
