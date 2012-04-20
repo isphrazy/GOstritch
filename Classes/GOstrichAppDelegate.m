@@ -48,7 +48,6 @@
 	if( ! [CCDirector setDirectorType:kCCDirectorTypeDisplayLink] )
 		[CCDirector setDirectorType:kCCDirectorTypeDefault];
 	
-	
 	CCDirector *director = [CCDirector sharedDirector];
 	
 	// Init the View Controller

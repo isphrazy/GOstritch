@@ -18,7 +18,8 @@ static float cur_pos_y = 0;
 
 
 +(CCScene *) scene{
-	[[CCDirector sharedDirector] setDisplayFPS:NO];
+    [Resource init_textures];
+	//[[CCDirector sharedDirector] setDisplayFPS:NO];
 	CCScene *scene = [CCScene node];
 	BGLayer *bglayer = [BGLayer node];
 	[scene addChild:bglayer];
@@ -30,6 +31,8 @@ static float cur_pos_y = 0;
 
 -(id) init{
 	if( (self=[super init])) {
+        
+        NSLog(@"%@",[Resource get_tex:@"level1_island1_tex"]);
 		[self loadMap];
 		player = [Player init];
 		[self addChild:player];
@@ -163,6 +166,11 @@ static float cur_pos_y = 0;
 
 
 - (void) dealloc{
+    for (Island* i in islands) {
+        [i dealloc];
+    }
+    [islands dealloc];
+    [player dealloc];
 	//TODO--DEALLOC DA GAYME
 	[super dealloc];
 }

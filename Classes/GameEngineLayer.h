@@ -14,6 +14,7 @@
 #import "Player.h"
 #import "Common.h"
 #import "BGLayer.h"
+#import "Resource.h"
 
 @interface GameEngineLayer : CCLayer {
 	NSMutableArray *islands;

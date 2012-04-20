@@ -1,5 +1,6 @@
 #import "Player.h"
 #import "CCDrawingPrimitives.h"
+#import "Resource.h"
 
 
 @implementation Player
@@ -15,7 +16,7 @@
 	[new_player addChild:player_img];
 
 	
-	CCTexture2D *texture = [[CCTextureCache sharedTextureCache] addImage:@"bird1_run1_ss.png"];
+	CCTexture2D *texture = [Resource get_tex:@"bird1_run1_ss"];
 	NSMutableArray *animFrames = [NSMutableArray array];
 	
 	for (int i = 1; i<=6; i++) {

@@ -44,11 +44,9 @@
  |    |   -->  |    |
  (2)--(1)      (4)--(3)
  then glDrawArrays(offset++)*/
--(void)init_tex {
-	main_fill.texture = [[CCTextureCache sharedTextureCache] addImage:@"fg_tex.png"];
-	ccTexParams texParams = { GL_NEAREST, GL_NEAREST, GL_REPEAT, GL_REPEAT };
-	[main_fill.texture setTexParameters: &texParams];
-	
+-(void)init_tex {	
+    main_fill.texture = [Resource get_tex:@"level1_island1_tex"];
+    
 	main_fill.tri_pts = (CGPoint*) malloc(sizeof(CGPoint)*4);
 	main_fill.tex_pts = (CGPoint*) malloc(sizeof(CGPoint)*4);
 	
@@ -68,9 +66,7 @@
 }
 
 -(void)init_top {
-	top_fill.texture = [[CCTextureCache sharedTextureCache] addImage:@"fg_top.png"];
-	ccTexParams texParams = { GL_NEAREST, GL_NEAREST, GL_REPEAT, GL_REPEAT };
-	[top_fill.texture setTexParameters: &texParams];
+    top_fill.texture = [Resource get_tex:@"level1_island1_top"];
 	
 	top_fill.tri_pts = (CGPoint*) malloc(sizeof(CGPoint)*4);
 	top_fill.tex_pts = (CGPoint*) malloc(sizeof(CGPoint)*4);
