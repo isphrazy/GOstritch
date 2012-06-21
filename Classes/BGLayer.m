@@ -18,29 +18,19 @@
 
 +(NSMutableArray*) loadBg {
 	NSMutableArray *a = [[NSMutableArray alloc] init];
-	int start = 3;
-	int end = 1;
-	
-	for (int i = start; i >= end; i--) {
-		NSString *res_loc = [[NSString alloc] initWithFormat:@"level1_bg%d",i];
-		CCSprite *bg_obj = [CCSprite spriteWithTexture:[Resource get_tex:res_loc]];
-        bg_obj.position = ccp(0,0);
-		bg_obj.anchorPoint = ccp(0,0);
-		[a addObject:bg_obj];
-		
-		[res_loc release];
-	}
-	return a;
+    
+    [a addObject:[BackgroundObject backgroundFromTex:[Resource get_tex:@"bg_sky"] scrollspd_x:0 scrollspd_y:0]];
+    [a addObject:[BackgroundObject backgroundFromTex:[Resource get_tex:@"bg_layer_2"] scrollspd_x:0.9 scrollspd_y:0.9]];
+    [a addObject:[BackgroundObject backgroundFromTex:[Resource get_tex:@"bg_layer_1"] scrollspd_x:0.25 scrollspd_y:0.15]];
+
+    return a;
 }
 
 -(void)update:(ccTime)dt {
-	int i = 0;
-	for (CCSprite* s in bg_elements) {
-		i-=2;
-		s.position = ccp(s.position.x+i,s.position.y);
-		if (s.position.x <= -(s.contentSize.width-[[CCDirector sharedDirector] winSize].width)) {
-			s.position = ccp(0,s.position.y);
-		}
+	for (BackgroundObject* s in bg_elements) {
+        CGSize textureSize = s.textureRect.size;
+        [s setTextureRect:CGRectMake([GameEngineLayer get_cur_pos_x]*s.scrollspd_x, 0, textureSize.width, textureSize.height)];
+        s.position = ccp(0,-[GameEngineLayer get_cur_pos_y]*s.scrollspd_y);
 	}
 }
 

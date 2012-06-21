@@ -10,11 +10,11 @@ static NSMutableDictionary* textures = nil;
     NSArray *temp = [[NSArray alloc] initWithObjects:
                      @"fg_tex.png", @"level1_island1_tex",
                      @"fg_top.png", @"level1_island1_top",
-                     @"bird1_run1_ss.png", @"bird1_run1_ss",
+                     @"dog1runss.png", @"char1_run1_ss",
                      
-                     @"bg_layer1.png",@"level1_bg1",
-                     @"bg_layer2.png",@"level1_bg2",
-                     @"bg_layer3.png",@"level1_bg3",
+                     @"bgsky_.png",@"bg_sky",
+                     @"bg_layer_1_.png",@"bg_layer_1",
+                     @"bg_layer_2.png",@"bg_layer_2",
                      nil];
     
     ccTexParams texParams = { GL_NEAREST, GL_NEAREST, GL_REPEAT, GL_REPEAT };

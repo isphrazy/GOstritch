@@ -12,7 +12,7 @@ static float cur_pos_y = 0;
     [Resource init_textures];
 	[[CCDirector sharedDirector] setDisplayFPS:NO];
 	CCScene *scene = [CCScene node];
-	BGLayer *bglayer = [BGLayer node]; //TODO--UPDATE BG IMAGES AND BGSCROLLING TO PLAYER VX,VY
+	BGLayer *bglayer = [BGLayer node];
 	[scene addChild:bglayer];
 	GameEngineLayer *layer = [GameEngineLayer node];
 	[scene addChild: layer];
@@ -23,18 +23,31 @@ static float cur_pos_y = 0;
 -(id) init{
 	if( (self=[super init])) {
 		[self loadMap];
-		player = [Player init];
+        
+        player = [Player init];
 		[self addChild:player];
 		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
 		player.vy = 0;
-		player.vx = 5; //TODO -- CHANGE SPEEDS BASED ON GAME EVENTS
+		player.vx = 1;
 		[self schedule:@selector(update:)];
 		self.isTouchEnabled = YES;
-		[self runAction:[CCFollow actionWithTarget:(player) worldBoundary:CGRectMake(0,0,3000,3000)]];
-		//TODO -- VARIABLE WORLD BOUNDS
-		//TODO -- FOLLOW TO LEFT
+        
+		[self.camera setCenterX:150 centerY:40 centerZ:0];
+        [self.camera setEyeX:150 eyeY:40 eyeZ:20];
+        
+		[self runAction:[CCFollow actionWithTarget:(player) worldBoundary:[self get_world_bounds] ]];
 	}
 	return self;
+}
+
+-(CGRect) get_world_bounds {
+    float max_x = 0;
+    float max_y = 0;
+    for (Island* i in islands) {
+        max_x = MAX(max_x, i.endX);
+        max_y = MAX(max_y, i.endY);
+    }
+    return CGRectMake(-100, -100, max_x+600, max_y+600);
 }
 
 -(void) loadMap{
@@ -53,29 +66,53 @@ static float cur_pos_y = 0;
 	player.position=pos_f;
     [self check_game_state];	
     [self update_static_x:pos_x y:pos_y];
+    
 }
 
 -(void) ccTouchesBegan:(NSSet*)pTouches withEvent:(UIEvent*)pEvent {
 	is_touch = YES;
+    player.touch_count = 5;
 }
 
--(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
-}
+/*-(void) ccTouchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
+}*/
 
 -(void) ccTouchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
 	is_touch = NO;
 }
 
 -(void)check_game_state {
-	if (player.position.y < 0) {
-		//TODO--ACTUAL GAME OVER STATES
+	if (player.position.y < 0) { //TODO--ACTUAL GAME OVER STATES
 		player.position = ccp(PLAYER_START_X,PLAYER_START_Y);
+        player.touch_count = 0;
+        player.vx = 0;
+        player.vy = 0;
 	}
 }
 
 -(void)player_control_update:(BOOL)is_contact {
-    if (is_touch && is_contact) { //if player touch, jump
-        player.vy = 10;
+    if (player.vx < 3) {
+        player.vx += 0.1;
+    }
+    if (is_contact) {
+        player.airjump_count = MAX(player.airjump_count,1);
+    } 
+
+    if (is_touch) {
+        player.touch_count+=0.5;
+        player.vx = MAX(player.vx,4);//MAX(player.vx*0.99,4);
+    } else if (player.touch_count != 0) {
+        if (is_contact) {
+            player.vy = MIN(player.touch_count,15);
+        } else if (player.airjump_count > 0) {
+            player.airjump_count--;
+            player.vy = MIN(player.touch_count,15);
+        }
+        player.touch_count = 0;
+    }
+
+    if (!is_touch) {
+        player.vx = MIN(player.vx*1.01,8);
     }
 }
 
